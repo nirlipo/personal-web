@@ -1,3 +1,13 @@
+# Nir's update
+
+Install the .deb file in this repo. The version of hugo in ubuntu sources is outdated and generates publications with authors in lowercase.
+
+To generate the publications, use a bib file. It is recommended to add your `url` and `abstract`. In this way the markdown is generated with all the info.
+
+To start, you can export you publications from your google scholar profile, and download a bib file. Then add the url and abstract accordingly. Painful once, but then easy to mantain. Tried with a script, but gscholar banned me quickly enough :)
+
+
+
 <p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
 
 # Academic Kickstart: The Template for [Academic Website Builder](https://sourcethemes.com/academic/)

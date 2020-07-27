@@ -1,0 +1,490 @@
+@inproceedings{lipovetzky2009inference,
+  title={Inference and decomposition in planning using causal consistent chains},
+  author={Lipovetzky, Nir and Geffner, H{\'e}ctor},
+  booktitle={Nineteenth International Conference on Automated Planning and Scheduling},
+  year={2009},
+  url={https://www.aaai.org/ocs/index.php/ICAPS/ICAPS09/paper/download/745/1115},
+  abstract={Current state-of-the-art planners solve problems, easy and hard alike, by search, expanding hundreds or thousands of nodes. Yet, given the ability of people to solve easy problems and to explain their solutions, it seems that an essential inferential component may be missing. The reasons expressed by people for selecting actions appear to be related to causal chains: sequences of causal links a i→ p i+ 1, i= 0,..., n–1, such that a 0 is applicable in the current state, p i is a precondition of action a i, and p n is a goal. Some of these causal chains or paths appear to be good, some bad, others appear to be impossible. In this work, we focus on such paths and develop three techniques for performing inference over them from which a path-based planner is obtained. We define the conditions under which a path is consistent, provide an heuristic estimate of the cost of achieving the goal along a consistent path, and introduce a planning algorithm that uses paths as decomposition backbones. The resulting planner, called C3, is not complete and does not perform as well as recent planners that carry extensive but extremely efficient searches such as LAMA, but is competitive with FF and in particular, with FF running in EHC mode which yields very focused but incomplete searches, and thus provides, a more apt comparison. Moreover, many domains are solved backtrack-free, with no search at all, suggesting that planning with paths may be a meaningful idea both cognitively and computationally.}
+}
+
+@inproceedings{lipovetzky2011searching,
+  title={Searching for plans with carefully designed probes},
+  author={Lipovetzky, Nir and Geffner, Hector},
+  booktitle={Twenty-First International Conference on Automated Planning and Scheduling},
+  year={2011},
+  url={https://www.aaai.org/ocs/index.php/ICAPS/ICAPS11/paper/viewPDFInterstitial/2706/3148},
+  abstract={We define a probe to be a single action sequence computedgreedily from a given state that either terminates in the goalor fails. We show that by designing these probes carefullyusing a number of existing and new polynomial techniquessuch as helpful actions, landmarks, commitments, and con-sistent subgoals, a single probe from the initial state solvesby itself 683 out of 980 problems from previous IPCs, a num-ber that compares well with the 627 problems solved by FFin EHC mode, with similar times and plan lengths. We alsoshow that by launching one probe from each expanded statein a standard greedy best first search informed by the addi-tive heuristic, the number of problems solved jumps to 900 (92%), as opposed to FF that solves 827 problems (84%), and LAMA that solves 879 (89%). The success of probessuggests that many domains can be solved easily once a suit-able serialization of the landmarks is found, an observationthat may open new connections between recent work in plan-ning and more classical work concerning goal serializationand problem decomposition in planning and search.}
+}
+
+@misc{lipovetzky2008structural,
+  title={Structural Inference in Planning: Scaling up without Heuristic Estimators},
+  author={Lipovetzky, Nir and Ram{\i}rez, Miquel and Geffner, Hector},
+  year={2008},
+  publisher={Submitted},
+  url={https://www.researchgate.net/profile/Nir_Lipovetzky/publication/228950574_Structural_Inference_in_Planning_Scaling_up_without_Heuristic_Estimators/links/0912f506d9222da5e7000000.pdf},
+  abstract={The aim of this paper is to introduce a different approach to the problem of inference in planning that is not based on either the extraction and use of heuristic functions or reductions into SAT or CSPs. The proposed approach is based on the new notion of consistent causal chains: sequences of causal links ai, pi+ 1, ai+ 1 starting with an action a0 applicable in the current state s and finishing in the goal, where pi+ 1 is an effect of action ai and a precondition of action ai+ 1. We show that by enforcing the semantics of causal links, it is possible to propagate side effects along such chains and detect that some of these chains cannot be part of any plan. Actions a0 that cannot start any consistent causal chain can then be pruned. We show that while simple, this pruning rule is quite powerful: a plain backtracking forward-state search planner with a version of this pruning rule solves as many benchmark problems as the effective Enforced Hill Climbing search of FF, many of them backtrack-free. We then consider extensions of this basic idea and discuss some of its implications.}
+}
+
+@article{lipovetzky2008c3,
+  title={C3: Planning with consistent causal chains},
+  author={Lipovetzky, Nir and Ramirez, Miquel and Geffner, H{\'e}ctor},
+  journal={Proceedings International Planning Competition (IPC-6)},
+  volume={35},
+  pages={136},
+  year={2008},
+  url={},
+  abstract={The automatic derivation of informative heuristic functions has been a key development in modern domainindependent planning. Heuristic functions provide the search for plans with a sense of direction that allows large problems to be solved quite effectively. Heuristic search planners, on the other hand, are not transparent: it is not clear why and when they will work, it is not simple to explain, as humans do, why certain actions are selected and others are discarded, and most important of all, it is not simple to improve them in spite of their known limitations. The C3 planner approaches the problem of inference in planning from a different perspective. Rather than relying on the extraction and use of heuristic functions or reductions into SAT or CSPs, C3 prunes’ bad actions’ by appealing to the notion of consistent causal chains (Lipovetzky, Ramirez, and Geffner 2008).}
+}
+
+@inproceedings{lipovetzky2009path,
+  title={Path-based heuristic (preliminary version)},
+  author={Lipovetzky, Nir and Geffner, H{\'e}ctor},
+  booktitle={ICAPS 2009 Workshop on Heuristics for Domain-Independent Planning, 2009a},
+  volume={136},
+  year={2009},
+  url={},
+  abstract={}
+}
+
+@article{lipovetzky2011searching,
+  title={Searching with probes: The classical planner probe},
+  author={Lipovetzky, Nir and Geffner, Hector},
+  journal={The 2011 International Planning Competition},
+  volume={30},
+  number={29},
+  pages={71},
+  year={2011},
+  url={http://www.plg.inf.uc3m.es/ipc2011-deterministic/attachments/Results/ipc2011-booklet.pdf#page=71},
+  abstract={Heuristic search has been the mainstream approach in planning for more than a decade, with planners such as FF, FD, and LAMA being able to solve problems with hundreds of actions and variables in a few seconds (Hoffmann and Nebel 2001; Helmert 2006; Richter and Westphal 2010). The basic idea behind these planners is to search for plans using a search algorithm guided by heuristic estimators derived automatically from the problem (McDermott 1996; Bonet and Geffner 2001). State-of-the-art planners, however, go well beyond this idea, adding a number of techniques that are specific to planning. These techniques, such as helpful actions and landmarks (Hoffmann and Nebel 2001; Hoffmann, Porteous, and Sebastia 2004; Richter, Helmert, and Westphal 2008), are designed to exploit the propositional structure of planning problems; a structure that is absent in traditional heuristic search where states and heuristic evaluations are used as black boxes. Moreover, new search algorithms have been devised to make use of these techniques. FF, for example, triggers a best-first search when an incomplete but effective greedy search (enforced hill climbing) that uses helpful actions only, fails. In FD and LAMA, the use of helpful or preferred operators is not restricted to the first phase of the search, but to one of the open lists maintained in a multi-queue search algorithm. In both cases, dual search architectures that appeal either to two successive searches or to a single search with multiple open lists, are aimed at solving fast, large problems that are simple, without giving up completeness on problems that are not.}
+}
+
+@inproceedings{patrizi2011computing,
+  title={Computing Infinite Plans for LTL Goals Using a Classical Planner},
+  author={Patrizi, Fabio and Lipoveztky, Nir and De Giacomo, Giuseppe and Geffner, Hector},
+  booktitle={Twenty-Second International Joint Conference on Artificial Intelligence},
+  year={2011},
+  url={https://www.aaai.org/ocs/index.php/IJCAI/IJCAI11/paper/viewPDFInterstitial/3217/3798},
+  abstract={Classical planning has been notably successful in synthesizing finite plans to achieve states where propositional goals hold. In the last few years, classical planning has also been extended to incorporate temporally extended goals, expressed in temporal logics such as LTL, to impose restrictions on the state sequences generated by finite plans. In this work, we take the next step and consider the computation of infinite plans for achieving arbitrary LTL goals. We show that infinite plans can also be obtained efficiently by calling a classical planner once over a classical planning encoding that represents and extends the composition of the planning domain and the Buchi automaton representing the goal. This compilation scheme has been implemented and a number of experiments are reported.}
+}
+
+@inproceedings{lipovetzky2012width,
+  title={Width and serialization of classical planning problems},
+  author={Lipovetzky, Nir and Geffner, H{\'e}ctor},
+  booktitle={Proceedings of the 20th European Conference on Artificial Intelligence (ECAI)},
+  pages={540--545},
+  year={2012},
+  organization={IOS Press},
+  url={https://people.eng.unimelb.edu.au/nlipovetzky/papers/classical-width-ecai12.pdf},
+  abstract={We introduce a width parameter that bounds the complexity of classical planning problems and domains, along with a
+simple but effective blind-search procedure that runs in time that is
+exponential in the problem width. We show that many benchmark
+domains have a bounded and small width provided that goals are restricted to single atoms, and hence that such problems are provably
+solvable in low polynomial time. We then focus on the practical value
+of these ideas over the existing benchmarks which feature conjunctive goals. We show that the blind-search procedure can be used for
+both serializing the goal into subgoals and for solving the resulting
+problems, resulting in a ‘blind’ planner that competes well with a
+best-first search planner guided by state-of-the-art heuristics. In addition, ideas like helpful actions and landmarks can be integrated as
+well, producing a planner with state-of-the-art performance.}
+}
+
+@article{patrizi2013fair,
+  title={Fair LTL Synthesis for Non-Deterministic Systems using Strong Cyclic Planners},
+  author={Patrizi, Fabio and Lipovetzky, Nir and Geffner, Hector},
+  year={2013},
+  url={https://www.aaai.org/ocs/index.php/IJCAI/IJCAI13/paper/viewPDFInterstitial/6653/7045},
+  abstract={We consider the problem of planning in environments where the state is fully observable, actions have non-deterministic effects, and plans must generate infinite state trajectories for achieving a large class of LTL goals. More formally, we focus on the control synthesis problem under the assumption that the LTL formula to be realized can be mapped into a deterministic Bu ̈chi automaton. We show that by assuming that action non-determinism is fair, namely that infinite executions of a non-deterministic action in the same state yield each possible successor state an infinite number of times, the (fair) synthesis problem can be reduced to a standard strong cyclic planning task over reachability goals. Since strong cyclic planners are built on top of efficient classical planners, the transformation reduces the non-deterministic, fully observable, temporally extended planning task into the solution of classical planning problems. A number of experiments are reported showing the potential benefits of this approach to synthesis in comparison with state-of-the-art symbolic methods.}
+}
+
+@inproceedings{lipovetzky2014planning,
+  title={Planning for mining operations with time and resource constraints},
+  author={Lipovetzky, Nir and Burt, Christina N and Pearce, Adrian R and Stuckey, Peter J},
+  booktitle={Twenty-Fourth International Conference on Automated Planning and Scheduling},
+  year={2014},
+  url={https://www.aaai.org/ocs/index.php/ICAPS/ICAPS14/paper/viewPDFInterstitial/7942/8057},
+  abstract={We study a daily mine planning problem where, given a set of blocks we wishto mine, our task is to generate a mining sequence for the excavators suchthat blending resource constraints are met at various stages of thesequence. Such time-oriented resource constraintsare not traditionally handled well by automated planners. On the other hand, the remaining problem involves finding node-disjoint sequences withstate-dependent travel times on the arcs, which are highly challenging for a Mixed-Integer Program (MIP). In this paper, we address the problem of finding feasible sequences using a combined MIP and planning based decomposition approach. The MIP takes care of the resource constraints, and the planner solves the remaining sequence problem. We extend the notion of finding feasible sequences to finding good feasible sequences, by devising a heuristic objective function in the MIP, which improves the resulting search space for the planner. We empirically analyse the scalability of our approach on a benchmark data set, before demonstrating its effectiveness on a real world case study provided by our industry partner. These results demonstrate that by using a heuristic MIP, it is possible to obtain better makespan results with a suboptimal planner than by using an optimal planner with an uninformed MIP.}
+}
+
+@article{balbo2014agent,
+  title={Agent-based simulation of Holocene monsoon precipitation patterns and hunter-gatherer population dynamics in semi-arid environments},
+  author={Balbo, Andrea L and Rubio-Campillo, Xavier and Rondelli, Bernardo and Ram{\'\i}rez, Miguel and Lancelotti, Carla and Torrano, Alexis and Salpeteur, Mattieu and Lipovetzky, Nir and Reyes-Garcia, Victoria and Montaola, Cristina and others},
+  journal={Journal of Archaeological Method and Theory},
+  volume={21},
+  number={2},
+  pages={426--446},
+  year={2014},
+  publisher={Springer US},
+  url={https://upcommons.upc.edu/bitstream/handle/2117/104989/JARM-D-13-00026.pdf},
+  abstract={Based on archaeological evidence from Kutch-Saurashtra (N Gujarat, NW India), we use Agent-Based
+Modelling (ABM) to explore the persistence of hunter-gatherer (HG) groups in semi-arid environments
+in the mid and late Holocene. Agents interact within a realistic semi-arid environment dominated by
+the monsoon. Precipitation trends are modelled from instrumental records (1871 - 2008) calibrated with
+existing models for the Asian monsoon in the Holocene (c. 12 ka - present). Experiments aim at
+exploring dependencies between population dynamics and climate-driven environmental change (in
+terms of resource availability) for precipitation patterns at the local, regional and continental scales.
+Resources are distributed across a simplified ground-model. Average yearly precipitation (AYP, i.e.
+mean) and variance in yearly precipitation (VYP, i.e. standard deviation) are the main parameters
+affecting resource availability in the simulations. We assess the effects of environmental change on HG
+populations at different time-scales: (1) Patterns of seasonal (inter-annual) resource availability, (2)
+Effects of changes in mean precipitation trends over the long (Pleistocene-Holocene) and the mid
+(Holocene, millennial) periods, and (3) Effects of intra-annual precipitation variability, i.e. changes in
+standard deviation from mean precipitation trends over the short period (annual to decadal).
+Simulations show that: (1) Strong seasonality is coherent with the persistence of HG populations in
+India, independently of the geographical scale of the precipitation models, (2) Changes in AYP over
+the mid period (Holocene) are not sufficient to explain the disappearance of HG populations in KutchSaurashtra (K-S) 4 ka, (3) Precipitation variability (VYP) over the short period (annual to decadal) is
+the main parameter affecting population performance and overall ecosystem dynamics. To date,
+sufficiently refined palaeo-climatic records do not exist for the study area, but higher VYP values 4 ka
+do not exclude the possibility that other factors may have driven the disappearance of HG populations
+in Kutch-Saurashtra. 
+}
+}
+
+@inproceedings{lipovetzky2014width,
+  title={Width-based Algorithms for Classical Planning: New Results},
+  author={Lipovetzky, Nir and Geffner, Hector},
+  booktitle={ECAI},
+  volume={16},
+  number={16},
+  pages={88},
+  year={2014},
+  url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.682.9031&rep=rep1&type=pdf#page=88},
+  abstract={We have recently shown that classical planning problems can be characterized in terms of a width measure that is bounded and small for most planning benchmark domains when goals are restricted to single atoms. Two simple algorithms have been devised for exploiting this structure: Iterated Width (IW) for achieving atomic goals, that runs in time exponential in the problem width by performing a sequence of pruned breadth first searches, and Serialized IW (SIW) that uses IW in a greedy search for achieving conjunctive goals one goal at a time. While SIW does not use heuristic estimators of any sort, it manages to solve more problems than a Greedy BFS using a heuristic like hadd. Yet, it does not approach the performance of more recent planners like LAMA. In this short paper, we introduce two simple extension to IW and SIW that narrow the performance gap with state-of-the-art planners. The first involves changing the greedy search for achieving the goals one at a time, by a depth-first search that is able to backtrack. The second involves computing a relaxed plan once before going to the next subgoal for making the pruning in the breadth-first procedure less agressive, while keeping IW exponential in the width parameter. The empirical results are interesting as they follow from ideas that are very different from those used in current planners.}
+}
+
+@article{lipovetzky2014width,
+  title={Width and inference based planners: Siw, bfs (f), and probe},
+  author={Lipovetzky, Nir and Ramirez, Miquel and Muise, Christian and Geffner, Hector},
+  journal={Proceedings of the 8th International Planning Competition (IPC-2014)},
+  year={2014},
+  url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.4904&rep=rep1&type=pdf},
+  abstract={We entered the planners SIW, BFS (f), and PROBE to the agile-track of the 2014 International Planning Competition, and an anytime planner for the satisficing track that runs both SIW and BFS (f). SIW and BFS (f) are classical planners that make use of the notion of width (Lipovetzky and Geffner 2012), while PROBE is a standard bestfirst search planner that augments the expansion of a node by throwing an “intelligent” probe which either reaches the goal or terminates quickly in low polynomial time (Lipovetzky and Geffner 2011). The basic building block of SIW is the Iterative Width Procedure (IW) for achieving one atomic goal at a time. IW runs in time exponential in the problem width by performing a sequence of pruned breadth first searches. The planner BFS (f) integrates a novelty measure from IW with helpful-actions, landmarks and deleterelaxation heuristics in a Greedy Best-Fist search. In the following sections we introduce the basic notions of the algorithms and the implementation.}
+}
+
+@book{lipovetzky2014structure,
+  title={Structure and inference in classical planning},
+  author={Lipovetzky, Nir},
+  year={2014},
+  publisher={AI Access},
+  url={https://people.eng.unimelb.edu.au/nlipovetzky/papers/aiaccess_nirlipo.pdf},
+  abstract={Classical planning is the problem of finding a sequence of actions for achieving a goal from an initial state assuming that actions have deterministic effects. The most effective approach for finding such plans is based on heuristic search guided by heuristics extracted automatically from the problem representation. In this thesis, we introduce alternative approaches for performing inference over the structure of planning problems that do not appeal to heuristic functions, nor to reductions to other formalisms such as SAT or CSP. We show that many of the standard benchmark domains can be solved with almost no search or a polynomially bounded amount of search, once the structure of planning problems is taken into account. In certain cases we can characterize this structure in terms of a novel width parameter for classical planning.}
+}
+
+@inproceedings{burt2015approximate,
+  title={Approximate Uni-directional Benders Decomposition},
+  author={Burt, Christina N and Lipovetzky, Nir and Pearce, Adrian R and Stuckey, Peter J},
+  booktitle={Proceedings of PlanSOpt-15 Workshop on Planning, Search and Optimization AAAI-15 (2015)},
+  year={2015},
+  url={https://www.aaai.org/ocs/index.php/WS/AAAIW15/paper/viewPDFInterstitial/10105/10230},
+  abstract={We examine a decomposition approach to find good quality feasible solutions. In particular, we studya method to reduce the search-space by decomposing a problem into two partitions, where the second partition (ie, the subproblem) contains the fixed solution of the first (ie, the master). This type of approach is usually motivated by the presence of two sub-problems that are each more easily solved by different methods. Our work is motivated by methods for which it is nontrivial to return a strongno-good',Benders feasibility', or'optimality'cut. Instead, we focus our attention on a uni-directional decomposition approach. Instead of providing a relaxation of the sub-problem for the master problem, as in Benders decomposition, we provide an approximation of the sub-problem. Thus, we aim at finding good quality feasible solutions in the first iteration. While the quality of the approximation itself affects the impact of this approach, we illustrate that even using a simple approximation can havestrong positive impact on two examples: the Travelling Purchaser Problem and a Mine Planning Problem.}
+}
+
+@article{burt2015scheduling,
+  title={Scheduling with Fixed Maintenance, Shared Resources and Nonlinear Feedrate Constraints: a Mine Planning Case Study},
+  author={Burt, Christina N and Lipovetzky, Nir and Pearce, Adrian R and Stuckey, Peter J},
+  year={2015},
+  url={https://people.eng.unimelb.edu.au/pstuckey/papers/cpaior15.pdf},
+  abstract={Given a short term mining plan, the task for an operational
+mine planner is to determine how the equipment in the mine should be
+used each day. That is, how crushers, loaders and trucks should be used
+to realise the short term plan. It is important to achieve both grade
+targets (by blending) and maximise the utilisation (i.e., throughput) of
+the mine. The resulting problem is a non-linear scheduling problem with
+maintenance constraints, blending and shared resources. In this paper, we
+decompose this problem into two parts: the blending, and the utilisation
+problems. We then focus our attention on the utilisation problem. We
+examine how to model and solve it using alternative approaches: specifically, constraint programming, MIQP and MINLP. We provide a repair
+heuristic based on an outer-approximation, and empirically demonstrate
+its effectiveness for solving the real-world instances of operational mine
+planning obtained from our industry partner.
+}
+}
+
+@inproceedings{davies2015sequencing,
+  title={Sequencing Operator Counts},
+  author={Davies, Toby and Pearce, Adrian R and Stuckey, Peter and Lipovetzky, Nir},
+  booktitle={International Conference on Automated Planning and Scheduling (ICAPS)},
+  year={2015},
+  url={https://www.aaai.org/ocs/index.php/ICAPS/ICAPS15/paper/viewPDFInterstitial/10618/10397},
+  abstract={Operator-counting is a recently developed framework for analysing and integrating many state-of-the-art heuristics for planning using Linear Programming. In cost-optimal planning only the objective value of these heuristics is traditionally used to guide the search. However the primal solution, ie the operator counts, contains useful information. We exploit this information using a SAT-based approach which given an operator-count, either finds a valid plan; or generates a generalized landmark constraint violated by that count. We show that these generalized landmarks can be used to encode the perfect heuristic, h*, as a Mixed Integer Program. Our most interesting experimental result is that finding or refuting a sequence for an operator-count is most often empirically efficient, enabling a novel and promising approach to planning based on Logic-Based Benders Decomposition (LBBD).}
+}
+
+@inproceedings{blom2015scheduling,
+  title={Scheduling Tools for Open-Pit Mining Operations},
+  author={Blom, Michelle L and Burt, Christina N and Lipovetzky, Nir and Stuckey, Peter J and Pearce, Adrian R},
+  booktitle={ICAPS sysdemo},
+  year={2015},
+  url={https://people.eng.unimelb.edu.au/nlipovetzky/papers/icaps15_sysdemo.pdf},
+  abstract={In open-pit mining operations, there are several levels
+of planning, each of which passes down restrictions to
+the level below. Each planning task is to determine the
+order in which material should be mined and how it
+should be processed, such that blending and utilisation
+targets are met. The mining operations are subject to
+various constraints on equipment use, maintenance and
+other resources. In this paper, we present a demo for
+two levels of planning: short-term scheduling and operations planning. The short-term schedule determines
+the blocks which should be mined, and when. The operational planners have the task of enacting the plans at a
+finer time horizon. Our system computes a set of schedules that can then be visualised in the form of tables,
+charts, and maps to support human expert planners.
+}
+}
+
+@inproceedings{lipovetzky2015classical,
+  title={Classical Planning with Simulators: Results on the Atari Video Games},
+  author={Lipovetzky, Nir and Ramirez, Miquel and Geffner, Hector},
+  booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2015},
+  url={https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPDFInterstitial/11030/10886},
+  abstract={The Atari 2600 games supported in the Arcade Learning Environment [Bellemare et al., 2013] all feature a known initial (RAM) state and actions that have deterministic effects. Classical planners, however, cannot be used off-the-shelf as there is no compact PDDL-model of the games, and action effects and goals are not known a priori. Indeed, there are no explicit goals, and the planner must select actions on line while interacting with a simulator that returns successor states and rewards. None of this precludes the use of blind lookahead algorithms for action selection like breadth-first search or Dijkstra’s yet such methods are not effective over large state spaces. We thus turn to a different class of planning methods introduced recently that have been shown to be effective for solving large planning problems but which do not require prior knowledge of state transitions, costs (rewards) or goals. The empirical results over 54 Atari games show that the simplest such algorithm performs at the level of UCT, the state-of-the-art planning method in this domain, and suggest the potential of width-based methods for planning with simulators when factored, compact action models are not available.}
+}
+
+@article{muise2015unplannability,
+  title={Unplannability IPC Track},
+  author={Muise, Christian and Lipovetzky, Nir},
+  journal={The International Planning Competition (WIPC-15)},
+  pages={14},
+  year={2015},
+  url={https://people.eng.unimelb.edu.au/nlipovetzky/papers/WIPC15_unplannability.pdf},
+  abstract={The majority of research in the field of automated planning focuses on the synthesis of plans for problems that are solvable. We propose an IPC track to focus on the important and understudied area of unplannibility: proving that a planning problem is unsolvable. We will focus on classical planning problems, as methods for determining whether or not unplannability can have wider applications for classical planning problems (eg, recognizing and avoiding deadends in the state space) as well as solving planning problems with uncertainty (eg, identifying when a deterministic approximation of the problem is unsolvable). The unplannability track follows similar contests in other fields; for example, the UNSAT track for the field of Boolean Satisfiability. In a similar vein, we hope that the introduction of an unplannability track will foster new innovation for techniques dedicated to identifying planning problems that cannot be solved.}
+}
+
+@article{muise2015map,
+  title={MAP-LAPKT: Omnipotent Multi-Agent Planning via Compilation to Classical Planning},
+  author={Muise, Christian and Lipovetzky, Nir and Ramirez, Miquel},
+  journal={Proceedings of the Competition of Distributed and Multiagent Planners (CoDMAP)},
+  year={2015},
+  url={https://people.eng.unimelb.edu.au/nlipovetzky/papers/CoDMAP15_LAPKT.pdf},
+  abstract={In this paper we describe three related entries submitted to the CoDMAP planning contest (Stolba, Komenda, and Kovacs 2015). All three entries are configurations of the classical planning framework LAPKT (Ramirez, Lipovetzky, and Muise 2015), and all three use the same pre-compiled input. Our approach is based on the following insight: \\n\\n The task of planning for multiple agents with heterogeneous access to fluent observability can be solved by classical planners using the appropriate encoding. \\n\\n  The general approach is quite simple: we convert the unfactored domain and problem file into a classical planning problem such that the privacy of fluents and objects are respected. The translation is both sound and complete, and
+we solve the encoded problem using a centralized classical planner. None of the factorization is passed to the classical planner, because the encoded problem contains all the necessary information as part of the problem itself. In the remainder of the document, we outline (1) the simple encoding that we use to create a classical planning problem, (2) the planning framework that we use to solve the encoded problems, and (3) the configurations that we submitted to the CoDMAP contest.}
+}
+
+@article{ramirez2015lightweight,
+  title={Lightweight automated planning toolkit},
+  author={Ramirez, Miquel and Lipovetzky, Nir and Muise, Christian},
+  journal={URL http://lapkt.org},
+  year={2015},
+  url={http://lapkt.org},
+  abstract={LAPKT stands for the Lightweight Automated Planning ToolKiT. It aims to make your life easier if your purpose is to create, use or extend basic to advanced Automated Planners. It's an open-source Toolkit written in C++ and Python with simple interfaces that give you complete flexibility by decoupling parsers from problem representations and algorithms. It has been succesfully used in embedded systems, webservices, compilations, replanning and contains some of the high-performance planners from the last International Planning Competition 2014 onwards.}
+}
+
+@inproceedings{lipovetzky2016traps,
+  title={Traps, invariants, and dead-ends},
+  author={Lipovetzky, Nir and Muise, Christian and Geffner, Hector},
+  booktitle={Twenty-Sixth International Conference on Automated Planning and Scheduling},
+  year={2016},
+  url={https://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/download/13190/12679},
+  abstract={We consider the problem of deriving formulas that capture traps, invariants, and dead-ends in classical planning through polynomial forms of preprocessing. An invariant is a formula that is true in the initial state and in all reachable states. A trap is a conditional invariant: once a state is reached that makes the trap true, all the states that are reachable from it will sat-isfy the trap formula as well. Finally, dead-ends are formulas that are satisfied in states that make the goal unreachable. We introduce a preprocessing algorithm that computes traps in k-DNF form that is exponential in the k parameter, and show how the algorithm can be used to precompute invariants and dead-ends. We report also preliminary tests that illustrate the effectiveness of the preprocessing algorithm for identifying dead-end states, and compare it with the identification that follows from the use of the h1 and h2 heuristics that cannot be preprocessed, and must be computed at run time.}
+}
+
+@inproceedings{lipovetzky2017best,
+  title={Best-first width search: Exploration and exploitation in classical planning},
+  author={Lipovetzky, Nir and Geffner, Hector},
+  booktitle={Thirty-First AAAI Conference on Artificial Intelligence},
+  year={2017},
+  url={https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPDFInterstitial/14862/14161},
+  abstract={It has been shown recently that the performance of greedy best-first search (GBFS) for computing plans that are not necessarily optimal can be improved by adding forms of exploration when reaching heuristic plateaus: from random walks to local GBFS searches. In this work, we address this problem but using structural exploration methods resulting from the ideas of width-based search. Width-based methodsseek novel states, are not goal oriented, and their power has been shown recently in the Atari and GVG-AI video-games. We show first that width-based exploration in GBFS is more effective than GBFS with local GBFS search (GBFS-LS), and then proceed to formulate a simple and general computational framework where standard goal-oriented search (exploitation) and width-based search (structural exploration) are combined to yield a search scheme, best-first width search, that is better than both and which results in classical planning algorithms that outperform the state-of-the-art planners.}
+}
+
+@inproceedings{katz2017adapting,
+  title={Adapting novelty to classical planning as heuristic search},
+  author={Katz, Michael and Lipovetzky, Nir and Moshkovich, Dany and Tuisov, Alexander},
+  booktitle={Twenty-Seventh International Conference on Automated Planning and Scheduling},
+  year={2017},
+  url={https://www.aaai.org/ocs/index.php/ICAPS/ICAPS17/paper/download/15736/15102},
+  abstract={The introduction of the concept of state novelty has advanced the state of the art in deterministic online planning in Atari-like problems and in planning with rewards in general, when rewards are defined on states. In classical planning, however, the success of novelty as the dichotomy between novel and non-novel states was somewhat limited. Until very recently, novelty-based methods were not able to successfully compete with state-of-the-art heuristic search based planners. In this work we adapt the concept of novelty to heuristic search planning, defining the novelty of a state with respect to its heuristic estimate. We extend the dichotomy between novel and non-novel states and quantify the novelty degree of state facts. We then show a variety of heuristics based on the concept of novelty and exploit the recently introduced best-first width search for satisficing classical planning. Finally, we empirically show the resulting planners to significantly improve the state of the art in satisficing planning.}
+}
+
+@inproceedings{lipovetzky2017polynomial,
+  title={A Polynomial Planning Algorithm that Beats LAMA and FF},
+  author={Lipovetzky, Nir and Geffner, Hector},
+  booktitle={International Conference on Automated Planning and Scheduling (ICAPS)},
+  year={2017},
+  url={https://www.aaai.org/ocs/index.php/ICAPS/ICAPS17/paper/viewPDFInterstitial/15740/15105},
+  abstract={It has been shown recently that heuristic and width-based search can be combined to produce planning algorithms with a performance that goes beyond the state-of-the-art. Such algorithms are based on best-first width search (BFWS), a plain best-first search set with evaluations functions combined lexicographically to break ties, some of which express novelty based preferences. In BFWS (f5), for example, the evaluation function f5 weights nodes by a novelty measure, breaking ties by the number of non-achieved goals. BFWS (f5) is a best-first algorithm, and hence, it is complete but not polynomial, and its performance doesn’t match the state of the art. In this work we show, however, that incomplete versions of BFWS (f5) where nodes with novelty greater than k are pruned, are not only polynomial but have an empirical performance that is better than both BFWS (f5) and state-of-the-art planners. This is shown by considering all the international planning competition instances. This is the first time where polynomial algorithms with meaningful bounds are shown to achieve state-of-the-art performance in planning. Practical and theoretical implications of this empirical finding are briefly sketched.}
+}
+
+@inproceedings{frances2017purely,
+  title={Purely Declarative Action Representations are Overrated: Classical Planning with Simulators},
+  author={Frances, Guillem and Ram{\i}rez, Miquel and Lipovetzky, Nir and Geffner, Hector},
+  booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2017},
+  url={https://pdfs.semanticscholar.org/2930/2200f62a4bdf9843b1ee708a3cc9301d7554.pdf},
+  abstract={Classical planning is concerned with problems where a goal needs to be reached from a known initial state by doing actions with deterministic,
+known effects. Classical planners, however, deal only with classical problems that can be expressed in declarative planning languages such as STRIPS
+or PDDL. This prevents their use on problems that are not easy to model declaratively or whose dynamics are given via simulations. Simulators do not
+provide a declarative representation of actions, but simply return successor states. The question we address in this paper is: can a planner that has access to the structure of states and goals only, approach the performance of planners that also have access to the structure of actions expressed in PDDL? To answer this, we develop domain-independent, black box planning algorithms that completely ignore action structure, and show that they match the performance of state-of-the-art classical planners on the standard planning benchmarks. Effective black box algorithms open up new possibilities for modeling and for expressing control knowledge, which we also illustrate.
+}
+}
+
+@inproceedings{chrpa2017handling,
+  title={Handling Non-local Dead-ends in Agent Planning Programs},
+  author={Chrpa, Luk{\'a}{\v{s}} and Lipovetzky, Nir and Sardina, Sebastian},
+  booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2017},
+  url={https://www.researchgate.net/profile/Nir_Lipovetzky/publication/318830301_Handling_non-local_dead-ends_in_Agent_Planning_Programs/links/59926180a6fdcc53b79b6dac/Handling-non-local-dead-ends-in-Agent-Planning-Programs.pdf},
+  abstract={We propose an approach to reason about agent planning programs with global information. Agent planning programs can be understood as a network of planning problems, accommodating long-term goals, non-terminating behaviors, and interactive execution. We provide a technique that relies on reasoning about “global” dead-ends and that can be incorporated to any planning-based approach to agent planning programs. In doing so, we also introduce the notion of online execution of such planning structures. We provide experimental evidence suggesting the technique yields significant benefits.}
+}
+
+@inproceedings{ramirez2017real,
+  title={Real--Time UAV Maneuvering via Automated Planning in Simulations},
+  author={Ramirez, Miquel and Papasimeon, Michael and Benke, Lyndon and Lipovetzky, Nir and Miller, Tim and Pearce, Adrian R},
+  booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2017},
+  url={https://www.ijcai.org/Proceedings/2017/0778.pdf},
+  abstract={The automatic generation of realistic behaviour such as tactical intercepts for Unmanned Aerial Vehicles (UAV) in air combat is a challenging problem. State-of-the-art solutions propose hand–crafted algorithms and heuristics whose performance depends heavily on the initial conditions and specific aerodynamic characteristics of the UAVs involved. This demo shows the ability of domain–independent planners, embedded into simulators, to generate on–line, feed–forward, control signals that steer simulated aircraft as best suits the situation.}
+}
+
+
+@inproceedings{macnally2018action,
+  title={Action Selection for Transparent Planning},
+  author={MacNally, Aleck M and Lipovetzky, Nir and Ramirez, Miquel and Pearce, Adrian R},
+  booktitle={International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},
+  year={2018},
+  url={https://people.eng.unimelb.edu.au/nlipovetzky/papers/aamas18-transparent-planning.pdf},
+  abstract={We introduce a novel framework to formalize and solve transparent planning tasks by executing actions selected in a suitable and timely fashion. A transparent planning task is defined as a task where the objective of the agent is to communicate its true goal to observers, thereby making its intentions and its action selection transparent. We formally define and model these tasks as Goal POMDPs where the state space is the Cartesian product of the states of the world and a given set of hypothetical goals. Action effects are deterministic in the world states of the problem but probabilistic in the observer’s beliefs. Transition probabilities are obtained from making a call to a model–based plan recognition algorithm, which we refer to as an observer stereotype. We propose an action selection strategy via on–line planning that seeks actions to quickly convey the goal being pursued to an observer assumed to fit a given stereotype. In order to keep run–times feasible, we propose a novel model–based plan recognition algorithm that approximates well–known probabilistic plan recognition methods. The resulting on–line planner, after being evaluated over a diverse set of domains and three different observer stereotypes, is found to convey goal information faster than purely goal–directed planners.}
+}
+
+@inproceedings{ramirez2018integrated,
+  title={Integrated Hybrid Planning and Programmed Control for Real--Time UAV Maneuvering},
+  author={Ramirez, Miquel and Papasimeon, Michael and Lipovetzky, Nir and Benke, Lyndon and Miller, Tim and Pearce, Adrian R and Scala, Enrico and Zamani, Mohammad},
+  booktitle={International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},
+  year={2018},
+  url={https://people.eng.unimelb.edu.au/nlipovetzky/papers/aamas18-uav.pdf},
+  abstract={The automatic generation of realistic behaviour such as tactical intercepts for Unmanned Aerial Vehicles (UAV) in air combat is a challenging problem. State-of-the-art solutions propose hand–crafted algorithms and heuristics whose performance depends heavily on the initial conditions and aerodynamic properties of the UAVs involved. This paper shows how to employ domain–independent planners, embedded into professional multi–agent simulations, to implement two–level Model Predictive Control (MPC) hybrid control systems for simulated UAVs. We compare the performance of controllers using planners with others based on behaviour trees that implement real world tactics. Our results indicate that hybrid planners derive novel and effective tactics from first principles inherent to the dynamical constraints UAVs are subject to.}
+}
+
+@article{frances2018best,
+  title={Best-First Width Search in the IPC 2018: Complete, Simulated, and Polynomial Variants},
+  author={Frances, Guillem and Geffner, Hector and Lipovetzky, Nir and Ram{\i}rez, Miquel},
+  year={2018},
+  url={https://pdfs.semanticscholar.org/058d/d06dc4e16c07398b7602a081b6391e7d8297.pdf},
+  abstract={Width-based search algorithms have recently emerged as a simple yet effective approach to planning. Best-First Width Search (BFWS) is one of the most successful satisficing width-based algorithms, as it strikes a good balance between an effective exploration based on a measure of state novelty and the exploitation provided by traditional goal-directed heuristics. Several conceptually interesting BFWS variants have recently been shown to offer state-of-the-art performance, including a polynomial-time BFWS planner which is incomplete but fast and effective, and a black-box BFWS planner that can plan efficiently with simulators, ie when the transition function of the problem is represented as a blackbox function. In this paper, we describe six BFWS planners involving these variations that we have entered into the 2018 International Planning Competition.}
+}
+
+@article{katz2018merwin,
+  title={MERWIN Planner: Mercury Enchanced With Novelty Heuristic},
+  author={Katz, Michael and Lipovetzky, Nir and Moshkovich, Dany and Tuisov, Alexander},
+  year={2018},
+  url={https://people.eng.unimelb.edu.au/nlipovetzky/papers/ipc_merwin.pdf},
+  abstract={Heuristic search with red-black planning heuristics is among the most effective approaches to satisficing planning and the driving power behind the state-of-the-art satisficing planner Mercury. Another recent success in satisficing planning is due to the introduction of novelty based heuristic guidance, in particular a guidance measuring the novelty of a heuristic estimate in a state. \\n\\n A satisficing planner that we baptize MERWIN empowers red-black planning heuristics with novelty based guidance, measuring the novelty of red-black planning heuristic estimates in explored states. MERWIN planner partitions the state space into novelty layers, expanding the most novel nodes first, and breaking ties within each layer by the redblack heuristic values.}
+}
+
+@article{lipovetzky2018pacman,
+  title={Pacman Capture the Flag in AI Courses},
+  author={Lipovetzky, Nir and Sardina, Sebastian},
+  journal={IEEE Transactions on Games},
+  volume={11},
+  number={3},
+  pages={296--299},
+  year={2018},
+  publisher={IEEE},
+  url={https://ieeexplore.ieee.org/abstract/document/8468047/},
+  abstract={In this letter, we report on the use of the UC-Berkeley Pacman Capture the Flag competition as a major assessment component in two large artificial intelligence (AI) courses. Teams of students are to integrate AI techniques to control the behavior of agents in an adversarial version of the well-known Pacman game. We discuss how the contest was designed, set up, and used for grading, and reflect on some of the outcomes achieved, including student perception. While the contest is very challenging (and, at times, frustrating) for students, it was successful in keeping them engaged. More importantly, a significant majority of students reported enjoying and learning from it. A powerful software tool to automate the competition for large number of teams is made freely available.}
+}
+
+@inproceedings{bazzotti2018iterative,
+  title={Iterative width search for multi agent privacy-preserving planning},
+  author={Bazzotti, Gabriele and Gerevini, Alfonso Emilio and Lipovetzky, Nir and Percassi, Francesco and Saetti, Alessandro and Serina, Ivan},
+  booktitle={International Conference of the Italian Association for Artificial Intelligence},
+  pages={431--444},
+  year={2018},
+  organization={Springer, Cham},
+  url={https://link.springer.com/chapter/10.1007/978-3-030-03840-3_32},
+  abstract={In multi-agent planning, preserving the agents’ privacy has become an increasingly popular research topic. In multi-agent privacy-preserving planning, agents jointly compute a plan that achieves mutual goals by keeping certain information private to the individual agents. Unfortunately, preserving the privacy of such information can severely restrict the accuracy of the heuristic functions used while searching for solutions. Recently, it has been shown that centralized planning based on Width-based search is a very effective approach over several benchmark domains, even when the search is driven by uninformed heuristics. In this paper, we investigate the usage of Width-based search in the context of (decentralised) multi-agent privacy-preserving planning, addressing the challenges related to the agents’ privacy and performance. An experimental study analyses the effectiveness of our techniques and compares them with the state-of-the-art.}
+}
+
+@article{hu2019you,
+  title={What you get is what you see: Decomposing Epistemic Planning using Functional STRIPS},
+  author={Hu, Guang and Miller, Tim and Lipovetzky, Nir},
+  journal={arXiv preprint arXiv:1903.11777},
+  year={2019},
+  url={https://arxiv.org/pdf/1903.11777},
+  abstract={Epistemic planning---planning with knowledge and belief---is essential in many multi-agent and human-agent interaction domains. Most state-of-the-art epistemic planners solve this problem by compiling to propositional classical planning, for example, generating all possible knowledge atoms, or compiling epistemic formula to normal forms. However, these methods become computationally infeasible as problems grow. In this paper, we decompose epistemic planning by delegating reasoning about epistemic formula to an external solver. We do this by modelling the problem using\emph {functional STRIPS}, which is more expressive than standard STRIPS and supports the use of external, black-box functions within action models. Exploiting recent work that demonstrates the relationship between what an agentsees' and what it knows, we allow modellers to provide new implementations of externals functions. These define what agents see in their environment, allowing new epistemic logics to be defined without changing the planner. As a result, it increases the capability and flexibility of the epistemic model itself, and avoids the exponential pre-compilation step. We ran evaluations on well-known epistemic planning benchmarks to compare with an existing state-of-the-art planner, and on new scenarios based on different external functions. The results show that our planner scales significantly better than the state-of-the-art planner against which we compared, and can express problems more succinctly.}
+}
+
+@book{haslum2019introduction,
+  title={An introduction to the planning domain definition language},
+  author={Haslum, Patrik and Lipovetzky, Nir and Magazzeni, Daniele and Muise, Christian},
+  journal={Synthesis Lectures on Artificial Intelligence and Machine Learning},
+  volume={13},
+  number={2},
+  pages={1--187},
+  year={2019},
+  publisher={Morgan \& Claypool Publishers},
+  url={https://www.morganclaypool.com/doi/abs/10.2200/S00900ED2V01Y201902AIM042},
+  abstract = {Planning is the branch of Artificial Intelligence (AI) that seeks to automate reasoning about plans, most importantly the reasoning that goes into formulating a plan to achieve a given goal in a given situation. AI planning is model-based: a planning system takes as input a description (or model) of the initial situation, the actions available to change it, and the goal condition to output a plan composed of those actions that will accomplish the goal when executed from the initial situation.
+  
+  \\n\\n The Planning Domain Definition Language (PDDL) is a formal knowledge representation language designed to express planning models. Developed by the planning research community as a means of facilitating systems comparison, it has become a de-facto standard input language of many planning systems, although it is not the only modelling language for planning. Several variants of PDDL have emerged that capture planning problems of different natures and complexities, with a focus on deterministic problems.
+
+  \\n\\n The purpose of this book is two-fold. First, we present a unified and current account of PDDL, covering the subsets of PDDL that express discrete, numeric, temporal, and hybrid planning. Second, we want to introduce readers to the art of modelling planning problems in this language, through educational examples that demonstrate how PDDL is used to model realistic planning problems. The book is intended for advanced students and researchers in AI who want to dive into the mechanics of AI planning, as well as those who want to be able to use AI planning systems without an in-depth explanation of the algorithms and implementation techniques they use.
+
+  \\n\\n Table of Contents: Praise for *An Introduction to the Planning Domain Definition Language / Preface / Introduction / Discrete and Deterministic Planning / More Expressive Classical Planning / Numeric Planning / Temporal Planning / Planning with Hybrid Systems / Conclusion / Bibliography / Authors' Biographies / Index*
+
+  }
+
+}
+
+@inproceedings{gerevini2019best,
+  title={Best-First Width Search for Multi Agent Privacy-preserving Planning},
+  author={Gerevini, Alfonso E and Lipovetzky, Nir and Percassi, Francesco and Saetti, Alessandro and Serina, Ivan},
+  booktitle={International Conference on Automated Planning and Scheduling (ICAPS)},
+  year={2019},
+  url={https://www.aaai.org/ojs/index.php/ICAPS/article/download/3472/3340/},
+  abstract={In multi-agent planning, preserving the agents’ privacy has become an increasingly popular research topic. For preserving the agents’ privacy, agents jointly compute a plan that achieves mutual goals by keeping certain information private to the individual agents. Unfortunately, this can severely restrict the accuracy of the heuristic functions used while searching for solutions. It has been recently shown that, for centralized planning, the performance of goal oriented search can be improved by combining goal oriented search and width-based search. The combination of these techniques has been called best-first width search. In this paper, we investigate the usage of best-first width search in the context of (decentralised) multi-agent privacy-preserving planning, addressing the challenges related to the agents’ privacy and performance. In particular, we show that best-first width search is a very effective approach over several benchmark domains, even when the search is driven by heuristics that roughly estimate the distance from goal states, computed without using the private information of other agents. An experimental study analyses the effectiveness of our techniques and compares them with the state-of-the-art.}
+}
+
+@inproceedings{gerevini2019novelty,
+  title={Novelty Messages Filtering for Multi Agent Privacy-preserving Planning},
+  author={Gerevini, Alfonso E and Lipovetzky, Nir and Peli, Nico and Percassi, Francesco and Saetti, Alessandro and Serina, Ivan},
+  booktitle={Symposium on Combinatorial Search (SoCS)},
+  year={2019},
+  url={https://www.aaai.org/ocs/index.php/SOCS/SOCS19/paper/view/18331/17447},
+  abstract={In multi-agent planning, agents jointly compute a plan that achieves mutual goals, keeping certain information private to the individual agents. Agents' coordination is achieved through the transmission of messages, but they can be a source of privacy leakage as they can permit a malicious agent to collect information about other agents' search processes and states. In this paper, we investigate the usage of novelty techniques in the context of (decentralised) multi-agent privacy preserving planning, addressing the challenges related to the agents' privacy and performance. In particular, we show that novelty based techniques allow a significant reduction on the number of messages transmitted among agents, increasing their privacy levels and also their performances. An experimental study analyses the effectiveness of our techniques and compares them with the state of-the-art. Finally, we examine the robustness of our approach considering different delays in the messages transmission as would occur in overloaded networks, due for example to massive attacks or critical situations.}
+}
+
+@article{o2019width,
+  title={Width-Based Lookaheads Augmented with Base Policies for Stochastic Shortest Paths},
+  author={O’Toole, Stefan and Ramirez, Miquel and Lipovetzky, Nir and Pearce, Adrian},
+  journal={HSDIP 2019},
+  pages={37},
+  year={2019},
+  url={https://openreview.net/references/pdf?id=Bk2NLFuA4},
+  abstract={Sequential decision problems for real-world applications often need to be solved in real-time, requiring algorithms to perform well with a restricted computational budget. Widthbased lookaheads have shown state-of-the-art performance in classical planning problems as well as over the Atari games with tight budgets. In this work we investigate width-based lookaheads over Stochastic Shortest paths (SSP). We analyse why width-based algorithms perform poorly over SSP problems, and overcome these pitfalls proposing a method to estimate costs-to-go. We formalize width-based lookaheads as an instance of the rollout algorithm, give a definition of width for SSP problems and explain its sample complexity. Our experimental results over a variety of SSP benchmarks show the algorithm to outperform other state-of-the-art rollout algorithms such as UCT and RTDP.}
+}
+
+@article{syed2019planimation,
+  title={Planimation},
+  author={Syed, Mohammed Sharukh and Tang, Haoyuan and Wu, Yue and Yan, Ye and Tidhar, Gil and Lipovetzky, Nir},
+  journal={ICAPS Systems Demonstrations},
+  year={2019},
+  url={https://planimation.github.io/documentation/#3-papers},
+  abstract={Planimation is a modular and extensible open source framework to visualise sequential solutions of planning problems specified in PDDL. We introduce a preliminary declarative PDDL-like animation profile specification, expressive enough to synthesise animations of arbitrary initial states and goals of a benchmark with just a single profile.}
+}
+
+@inproceedings{polyvyanyy2020goal,
+  title={Goal Recognition Using Off-The-Shelf Process Mining Techniques},
+  author={Polyvyanyy, Artem and Su, Zihang and Lipovetzky, Nir and Sardina, Sebastian},
+  booktitle={International Conference on Autonomous Agents and Multiagent Systems (AAMAS)},
+  year={2020},
+  url={http://www.ifaamas.org/Proceedings/aamas2020/pdfs/p1072.pdf},
+  abstract={The problem of probabilistic goal recognition consists of automatically inferring a probability distribution over a range of possible goals of an autonomous agent based on the observations of its behavior. The state-of-the-art approaches for probabilistic goal recognition assume the full knowledge about the world the agent operates in and possible agent’s operations in this world. In this paper, we propose a framework for solving the probabilistic goal recognition problem using process mining techniques for discovering models that describe the observed behavior and diagnosing deviations between the discovered models and observations. The framework imitates the principles of observational learning, one of the core mechanisms of social learning exhibited by humans, and relaxes the above assumptions. It has been implemented in a publicly available tool. The reported experimental results confirm the effectiveness and efficiency of the approach, both for rational and irrational agents’ behaviors.}
+}
+
+@incollection{muise2020keps,
+  title={KEPS Book: Planning. Domains},
+  author={Muise, Christian and Lipovetzky, Nir},
+  booktitle={Knowledge Engineering Tools and Techniques for AI Planning},
+  pages={91--105},
+  year={2020},
+  publisher={Springer, Cham},
+  url={https://link.springer.com/chapter/10.1007/978-3-030-38561-3_5},
+  abstract={In this chapter we describe the main pillars of the Planning.Domains initiative (API, Solver, Editor, and Education), detail some of the current use-cases for them, and outline the future path of the initiative. We further dive into some of the most recent developments of Planning.Domains, and shed light on what is next for the platform.}
+}
+
+@inproceedings{teichteil2020boundary,
+  title={Boundary Extension Features for Width-Based Planning with Simulators on Continuous-State Domains},
+  author={Teichteil-K{\"o}nigsbuch, Florent and Ramirez, Miquel and Lipovetzky, Nir},
+  booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2020},
+  url={https://www.ijcai.org/Proceedings/2020/0578.pdf},
+  abstract={Width-based planning algorithms have been demonstrated to be competitive with state-of-the-art heuristic search and SAT-based approaches, without requiring access to a model of action effects and preconditions, just access to a black-box simulator. Width-based planners search is guided by a measure of the novelty of states, that requires observations on simulator states to be given as a set of features. This paper proposes agnostic feature mapping mechanisms that define the features online, as exploration progresses and the domain of continuous state variables is revealed. We demonstrate the effectiveness of these features on the OpenAI gym "classical control" suite of benchmarks. We compare our online planners with state-of-the-art deep reinforcement learning algorithms, and show that width-based planners using our features can find policies of the same quality with significantly less computational resources.}
+}
