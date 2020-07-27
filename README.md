@@ -2,10 +2,13 @@
 
 Install the .deb file in this repo. The version of hugo in ubuntu sources is outdated and generates publications with authors in lowercase.
 
-To generate the publications, use a bib file. It is recommended to add your `url` and `abstract`. In this way the markdown is generated with all the info.
+To generate the publications, use a bib file. It is recommended to add your `url` and `abstract`. In this way the markdown is generated with all the info. See section `Ecosystem` below to know how to generate the pages from bibfile.
 
 To start, you can export you publications from your google scholar profile, and download a bib file. Then add the url and abstract accordingly. Painful once, but then easy to mantain. Tried with a script, but gscholar banned me quickly enough :)
 
+## Deploy
+
+Create a repo in github named: `<yourUsername>.github.io`. Add a `README.md` file by default. Then, edit the `deploy.sh` script pointing to your username and run `deploy.sh`.
 
 
 <p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
