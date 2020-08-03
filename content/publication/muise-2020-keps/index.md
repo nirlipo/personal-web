@@ -1,6 +1,6 @@
 ---
 title: "KEPS Book: Planning. Domains"
-date: 2020-01-01
+date: 2020-03-01
 publishDate: 2020-07-26T09:42:49.133458Z
 authors: ["Christian Muise", "Nir Lipovetzky"]
 publication_types: ["6"]

@@ -1,6 +1,6 @@
 ---
 title: "Boundary Extension Features for Width-Based Planning with Simulators on Continuous-State Domains"
-date: 2020-01-01
+date: 2020-07-01
 publishDate: 2020-07-26T09:42:49.134305Z
 authors: ["Florent Teichteil-Königsbuch", "Miquel Ramirez", "Nir Lipovetzky"]
 publication_types: ["1"]

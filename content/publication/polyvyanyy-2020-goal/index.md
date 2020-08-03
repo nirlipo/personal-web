@@ -1,6 +1,6 @@
 ---
 title: "Goal Recognition Using Off-The-Shelf Process Mining Techniques"
-date: 2020-01-01
+date: 2020-05-01
 publishDate: 2020-07-26T09:42:49.132443Z
 authors: ["Artem Polyvyanyy", "Zihang Su", "Nir Lipovetzky", "Sebastian Sardina"]
 publication_types: ["1"]
