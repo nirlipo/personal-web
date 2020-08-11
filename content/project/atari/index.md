@@ -5,13 +5,13 @@ tags:
 - AI Planning
 - ALE
 - Deep Reinforcement Learning (RL)
-date: "02 Jun 2018"
+date: "02 Jun 2015"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Planimation
+  caption: Atari
   focal_point: Smart
   preview_only: true  
 

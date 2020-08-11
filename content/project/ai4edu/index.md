@@ -26,6 +26,6 @@ image:
 
 ---
 
-We developed a set of [tools](https://github.com/AI4EDUC/) to run daily competitions in our AI courses at the University of Melbourne and RMIT. Students rely on a version from [Berkley AI Pacman framework](http://ai.berkeley.edu/project_overview.html). They use search algoithms, Planning Domain Description Language (PDDL), classical replanning, minimax, reinforcement learning and other approaches for their autonomous agents.
+We developed a set of [tools](https://github.com/AI4EDUC/) to run daily competitions in our AI courses at the University of Melbourne and RMIT. Students rely on a version from [Berkley AI Pacman framework](http://ai.berkeley.edu/project_overview.html). They use search algorithms, Planning Domain Description Language (PDDL), classical replanning, minimax, reinforcement learning and other approaches for their autonomous agents.
 
 The code to run the competitions have been adapted over different games. This project has been developed with Prof. Sebastian Sardina (RMIT)

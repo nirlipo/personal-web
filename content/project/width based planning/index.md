@@ -4,7 +4,7 @@ summary: Width Based Planning searches for solutions through a general measure o
 tags:
 - AI Planning
 - Width Based Planning
-date: "2018-04-27T00:00:00Z"
+date: "2020-04-27T00:00:00Z"
 
 # links:
 # - name: Documentation

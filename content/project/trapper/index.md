@@ -4,7 +4,7 @@ summary: Invariants, Traps, Un-reachability Certificates, and Dead-end Detection
 tags:
 - AI Planning
 - Verification
-date: "02 Jun 2018"
+date: "02 Jun 2016"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

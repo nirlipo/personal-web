@@ -4,7 +4,7 @@ summary: Planimation is a framework to visualise sequential solutions of plannin
 tags:
 - AI Planning
 - Explainable AI (XAI)
-date: "2016-04-27T00:00:00Z"
+date: "2019-04-27T00:00:00Z"
 
 links:
 - name: Documentation
@@ -12,7 +12,7 @@ links:
   # icon_pack: fas
   # icon: books
 url_code: "https://github.com/planimation/"
-url_pdf: "https://icaps19.icaps-conference.org/files/pdfs/planimation_icaps19_sysdemo.pdf"
+url_pdf: "https://arxiv.org/abs/2008.04600"
 url_video: "https://www.youtube.com/watch?v=Cj2rWdt1YQU&feature=youtu.be"
 
 
@@ -58,6 +58,8 @@ Recipient of the [ICAPS 2019 Best system Demo Award](https://icaps19.icaps-confe
 ![image](https://endeavour.unimelb.edu.au/__data/assets/image/0005/2914691/endeavour-2018-36.jpg)
 
 ## Citing Planimation
+
+[Technical Report - ICAPS 2019 System Demonstration](https://arxiv.org/abs/2008.04600)
 
 Please cite Planimation using
 ``` latex
