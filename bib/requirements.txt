@@ -2,4 +2,4 @@ beautifulsoup4==4.9.1
 free-proxy==1.0.1
 scholarly==0.3.3
 tornado==4.2
-urllib3==1.25.8
+urllib3==1.26.5
