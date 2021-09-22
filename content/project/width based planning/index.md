@@ -84,8 +84,9 @@ A position paper `[Width-Based Algorithms for Common Problems in Control, Planni
  - Features for Continuous-State Domains. Competitive with DRL and LQR on [control problems](https://gym.openai.com/envs/#control) over gym.openai simulator
    - [Florent Teichteil-Königsbuch, Miquel Ramirez, Nir Lipovetzky, IJCAI20](https://www.ijcai.org/Proceedings/2020/0578.pdf)
 ## Pleanning and Learning
- - [M Junyent, A Jonsson, V Gómez, ICAPS19](https://ojs.aaai.org/index.php/ICAPS/article/download/3554/3432/)
- - [M Junyent, A Jonsson, V Gómez, ICAPS21](https://ojs.aaai.org/index.php/ICAPS/article/download/15999/15810)
+ - IW and Learnt Policies [M Junyent, A Jonsson, V Gómez, ICAPS19](https://ojs.aaai.org/index.php/ICAPS/article/download/3554/3432/)
+ - Hierarchical Learning [M Junyent, A Jonsson, V Gómez, ICAPS21](https://ojs.aaai.org/index.php/ICAPS/article/download/15999/15810)
+ - Learning symbolic representation with VAE [A Dittadi, FK Drachmann, T Bolander](https://ojs.aaai.org/index.php/AAAI/article/view/16627)
 
 ## Planning over Factored Simulators in Functional STRIPS
 Factored simulators accept finite domain variables, and mixed Declarative and Programatic (simulated) dynamics
