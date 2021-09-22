@@ -37,11 +37,11 @@ date_format = "Jan 2006"
 
 #### Masters
 
-
+- `Zhiaho Pei` [2021]. **co-supervized** with Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Robust decision making for complex systems
+- `Marco Marasco` [2021]. **co-supervized** with Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Adaptive Policy making for systems of electricity provision
 - `Jiayuan Chah` [2021]. **co-supervized** with A/Prof Sigfredo Fuentes, **Topic**: FarmBot.io Planning: simulation and integration
 - `Yajing Ma` [2021].  **co-supervized** with A/Prof Sigfredo Fuentes, **Topic**: Electronic Nose for pest detection
-- `Zhiaho Pei` [2021]. **co-supervized** with Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Robust decision making for complex systems.
-- `Marco Marasco` [2021]. **co-supervized** with Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Sequential decision making for electircity service provision.
+
 
 ### Alumni 
 
