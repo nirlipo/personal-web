@@ -39,7 +39,8 @@ date_format = "Jan 2006"
 
 ### Senior Programme Committee 
 
-- Association for the Advancement of Artificial Intelligence, `AAAI (2020)`
+- Association for the Advancement of Artificial Intelligence, `AAAI (2020,2021,2022)`
+- International Joint Conferences on Artificial Intelligence `IJCAI (2021,2022)`
 
 
 ### Programme Committee 
@@ -51,6 +52,8 @@ date_format = "Jan 2006"
 - European Conference on Artificial Intelligence, `ECAI (2014,2016)`
 
 - International Conference on Automated Planning and Scheduling, `ICAPS (2015,2016,2017,2018,2020)`
+
+- Symposium on Combinatorial Search `SOCS (2020,2021)`
 
 
 ### Reviewer

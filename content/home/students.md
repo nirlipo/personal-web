@@ -37,7 +37,11 @@ date_format = "Jan 2006"
 
 #### Masters
 
-- `Ciao Lei` [2019-current]. **Topic**: Regression in Classical Planning
+
+- `Jiayuan Chah` [2021]. **co-supervized** with A/Prof Sigfredo Fuentes, **Topic**: FarmBot.io Planning: simulation and integration
+- `Yajing Ma` [2021].  **co-supervized** with A/Prof Sigfredo Fuentes, **Topic**: Electronic Nose for pest detection
+- `Zhiaho Pei` [2021]. **co-supervized** with Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Robust decision making for complex systems.
+- `Marco Marasco` [2021]. **co-supervized** with Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Sequential decision making for electircity service provision.
 
 ### Alumni 
 
@@ -50,4 +54,6 @@ date_format = "Jan 2006"
 - `Dmitry Grebenyuk` [2018-2020], **co-supervised** with Dr. Miquel Ramirez, and Dr. Kris Ehinger. **Topic**: Agnostic Features for generalized policies computed with Deep Reinforcement Learning. **First Employment:** Start-up working on Image Processing using DRL.
 
 - `Guang Hu` [2018-2020], **co-supervised** with Dr.Tim Miller. **Topic**: What you get is what you see: Decomposing Epistemic Planning using Functional STRIPS.**PhD Candidate** [2020 - current]
+
+- `Ciao Lei` [2019-2020]. **Topic**: Regression and Width in Classical Planning - ICAPS 2021 paper.
 

@@ -502,3 +502,35 @@ provide a declarative representation of actions, but simply return successor sta
   abstract={Bushfires are increasing in number and intensity due to climate change. A newly developed low-cost electronic nose (e-nose) was tested on wines made from grapevines exposed to smoke in field trials. E-nose readings were obtained from wines from five experimental treatments: (i) low-density smoke exposure (LS), (ii) high-density smoke exposure (HS), (iii) high-density smoke exposure with in-canopy misting (HSM), and two controls: (iv) control (C; no smoke treatment) and (v) control with in-canopy misting (CM; no smoke treatment). These e-nose readings were used as inputs for machine learning algorithms to obtain a classification model, with treatments as targets and seven neurons, with 97\% accuracy in the classification of 300 samples into treatments as targets (Model 1). Models 2 to 4 used 10 neurons, with 20 glycoconjugates and 10 volatile phenols as targets, measured: in berries one hour after smoke (Model 2; R = 0.98; R2 = 0.95; b = 0.97); in berries at harvest (Model 3; R = 0.99; R2 = 0.97; b = 0.96); in wines (Model 4; R = 0.99; R2 = 0.98; b = 0.98). Model 5 was based on the intensity of 12 wine descriptors determined via a consumer sensory test (Model 5; R = 0.98; R2 = 0.96; b = 0.97). These models could be used by winemakers to assess near real-time smoke contamination levels and to implement amelioration strategies to minimize smoke taint in wines following bushfires.}
 
 }
+
+@inproceedings{lei2021width,
+  title={Width-Based Backward Search},
+  author={Lei, Chao and Lipovetzky, Nir},
+  booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},
+  volume={31},
+  pages={219--224},
+  year={2021},
+  url={https://ojs.aaai.org/index.php/ICAPS/article/view/15965/15776},
+  abstract={It has been shown recently that duality mapping is a viable strategy to turn progression (forward search) into regression (backward search), but the experimental results suggest that the dual versions of standard IPCs benchmarks are quite difficult to solve for heuristic search planners. We aim to study the performance of width based planners over regression. Our experiments show that width-based search can solve dual problems efficiently when the goal state is restricted to single fluent, but it becomes challenging when the goal state contains conjunctive fluents. We then show that the backward versions of best-first width search with the evaluation function f5, BFWS(f5), and its polynomial variant, k-BFWS, are not competitive with their forward versions, but can be orthogonal over the IPC benchmarks. Hence, we propose a front-to-end bidirectional search k-BDWS and its front-to-front variant by integrating forward and backward k-BFWS with the additional intersection check between expanded states whose novelty is 1 in the opposite close list. Practical findings on the challenges of regression in classical planning are briefly discussed.}
+}
+
+@inproceedings{singh2021approximate,
+  title={Approximate Novelty Search},
+  author={Singh, Anubhav and Lipovetzky, Nir and Ramirez, Miquel and Segovia-Aguas, Javier},
+  booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},
+  volume={31},
+  pages={349--357},
+  year={2021},
+  url={https://ojs.aaai.org/index.php/ICAPS/article/view/15980/15791},
+  abstract={Width-based search algorithms seek plans by prioritizing states according to a suitably defined measure of novelty, that maps states into a set of novelty categories. Space and time complexity to evaluate state novelty is known to be exponential on the cardinality of the set. We present novel methods to obtain polynomial approximations of novelty and width-based search. First, we approximate novelty computation via random sampling and Bloom filters, reducing the runtime and memory footprint. Second, we approximate the best-first search using an adaptive policy that decides whether to forgo the expansion of nodes in the open list. These two techniques are integrated into existing width-based algorithms, resulting in new planners that perform significantly better than other state-of-the-art planners over benchmarks from the International Planning Competitions.}
+}
+
+@inproceedings{nir2021ijcai,
+  title={Planning for Novelty: Width-Based Algorithms for Common Problems in Control, Planning and Reinforcement Learning},
+  author={Lipovetzky, Nir},
+  booktitle={International Joint Conference on Artificial Intelligence (IJCAI), Early Career Track},
+  year={2021},
+  pages={4956--4960},
+  url={https://www.ijcai.org/proceedings/2021/0702.pdf},
+  abstract={Width-based algorithms search for solutions through a general definition of state novelty. These algorithms have been shown to result in state-of-the-art performance in classical planning, and have been successfully applied to model-based and model-free settings where the dynamics of the problem are given through simulation engines. Width-based algorithms performance is understood theoretically through the notion of planning width, providing polynomial guarantees on their runtime and memory consumption. To facilitate synergies across research communities, this paper summarizes the area of width-based planning, and surveys current and future research directions.}
+}
