@@ -525,6 +525,32 @@ provide a declarative representation of actions, but simply return successor sta
   abstract={Width-based search algorithms seek plans by prioritizing states according to a suitably defined measure of novelty, that maps states into a set of novelty categories. Space and time complexity to evaluate state novelty is known to be exponential on the cardinality of the set. We present novel methods to obtain polynomial approximations of novelty and width-based search. First, we approximate novelty computation via random sampling and Bloom filters, reducing the runtime and memory footprint. Second, we approximate the best-first search using an adaptive policy that decides whether to forgo the expansion of nodes in the open list. These two techniques are integrated into existing width-based algorithms, resulting in new planners that perform significantly better than other state-of-the-art planners over benchmarks from the International Planning Competitions.}
 }
 
+@article{fuentes2021biometric,
+  title={Biometric Physiological Responses from Dairy Cows Measured by Visible Remote Sensing Are Good Predictors of Milk Productivity and Quality through Artificial Intelligence},
+  author={Fuentes, Sigfredo and Gonzalez Viejo, Claudia and Tongson, Eden and Lipovetzky, Nir and Dunshea, Frank R},
+  journal={Sensors},
+  volume={21},
+  number={20},
+  pages={6844},
+  year={2021},
+  url={https://www.mdpi.com/1424-8220/21/20/6844},
+  abstract={New and emerging technologies, especially those based on non-invasive video and thermal infrared cameras, can be readily tested on robotic milking facilities. In this research, implemented non-invasive computer vision methods to estimate cow’s heart rate, respiration rate, and abrupt movements captured using RGB cameras and machine learning modelling to predict eye temperature, milk production and quality are presented. RGB and infrared thermal videos (IRTV) were acquired from cows using a robotic milking facility. Results from 102 different cows with replicates (n = 150) showed that an artificial neural network (ANN) model using only inputs from RGB cameras presented high accuracy (R = 0.96) in predicting eye temperature (°C), using IRTV as ground truth, daily milk productivity (kg-milk-day−1), cow milk productivity (kg-milk-cow−1), milk fat (%) and milk protein (%) with no signs of overfitting. The ANN model developed was deployed using an independent 132 cow samples obtained on different days, which also rendered high accuracy and was similar to the model development (R = 0.93). This model can be easily applied using affordable RGB camera systems to obtain all the proposed targets, including eye temperature, which can also be used to model animal welfare and biotic/abiotic stress. Furthermore, these models can be readily deployed in conventional dairy farms.},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@ARTICLE{grady,
+AUTHOR={Fitzpatrick, Grady and Lipovetzky, Nir and Papasimeon, Michael and Ramirez, Miquel and Vered, Mor},   
+TITLE={Behaviour Recognition with Kinodynamic Planning Over Continuous Domains},      
+JOURNAL={Frontiers in Artificial Intelligence},      
+VOLUME={4},     
+PAGES={156},     
+YEAR={2021},      
+URL={https://www.frontiersin.org/article/10.3389/frai.2021.717003},       
+DOI={10.3389/frai.2021.717003},      
+ISSN={2624-8212},   
+ABSTRACT={We investigate the application of state-of-the-art goal recognition techniques for behaviour recognition over complex continuous domains using model predictive control (MPC) for trajectory generation. We formally define the problem of kinodynamic behaviour recognition and establish a set of baseline behaviours and performance measures in the complex domain of unmanned aerial maneuvers. We evaluate how well our approach performs over a range of standard aerial maneuvers and representative initial configurations of varying complexity. The work also highlights future research directions in compound model-based behaviour recognition and team behaviour recognition where multiple agents may be acting simultaneously.}
+}
+
 @inproceedings{nir2021ijcai,
   title={Planning for Novelty: Width-Based Algorithms for Common Problems in Control, Planning and Reinforcement Learning},
   author={Lipovetzky, Nir},
@@ -533,4 +559,13 @@ provide a declarative representation of actions, but simply return successor sta
   pages={4956--4960},
   url={https://www.ijcai.org/proceedings/2021/0702.pdf},
   abstract={Width-based algorithms search for solutions through a general definition of state novelty. These algorithms have been shown to result in state-of-the-art performance in classical planning, and have been successfully applied to model-based and model-free settings where the dynamics of the problem are given through simulation engines. Width-based algorithms performance is understood theoretically through the notion of planning width, providing polynomial guarantees on their runtime and memory consumption. To facilitate synergies across research communities, this paper summarizes the area of width-based planning, and surveys current and future research directions.}
+}
+
+@inproceedings{stefanNeurips,
+  title={Width-based Lookaheads with Learnt Base Policies and Heuristics Over the Atari-2600 Benchmark},
+  author={O'Toole, Stefan and Lipovetzky, Nir and Ramirez, Miquel and Pearce, Adrian},
+  booktitle={Proceedings of the Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS)},
+  abstract={We propose new width-based planning and learning algorithms inspired from a careful analysis of the design decisions made by previous width-based planners. The algorithms are applied over the Atari-2600 games and our best performing algorithm, Novelty guided Critical Path Learning (N-CPL), outperforms the previously introduced width-based planning and learning algorithms $\pi$-IW(1), $\pi$-IW(1)+ and $\pi$-HIW(n, 1). Furthermore, we present a taxonomy of the Atari-2600 games according to some of their defining characteristics. This analysis of the games provides further insight into the behaviour and performance of the algorithms introduced. Namely, for games with large branching factors, and games with sparse meaningful rewards, N-CPL outperforms $\pi$-IW, $\pi$-IW(1)+ and $\pi$-HIW(n, 1).}
+  year={2021}
+
 }
