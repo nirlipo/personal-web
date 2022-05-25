@@ -43,5 +43,5 @@ abstract: Width-based algorithms search for solutions through a general definiti
 publication: '*International Joint Conference on Artificial Intelligence (IJCAI),
   Early Career Track*'
 url_pdf: https://www.ijcai.org/proceedings/2021/0702.pdf
-url_video: 'https://recorder-v3.slideslive.com/#/share?share=46565&s=8b78bd0a-2b0c-480b-aae2-ee2700d6fc05'
+url_video: 'https://ijcai-21.org/videos-slides/?video=EC6'
 ---
