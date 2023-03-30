@@ -1,3 +1,117 @@
+@inproceedings{hu2023pwp,
+  title={Planning with Multi-agent Belief Using Justified Perspectives},
+  author={Hu, Guang and Miller, Tim and Lipovetzky, Nir},
+  booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},
+  volume={33},
+  pages={},
+  year={2023},
+  url={},
+  abstract={Epistemic planning plays an important role in multi-agent and human-agent interaction domains. 
+  Most existing works solve multi-agent epistemic planning problems by either pre-compiling them into classical planning problems; or, using explicit actions and their effects to encode Kripke-based semantics. 
+  A recent approach called Planning with Perspectives (PWP) delegates epistemic reasoning in planning to external functions using F-STRIPS, keeping the search within the planning algorithm and lazily evaluating epistemic formulae.
+  Although PWP is expressive and efficient, it models S5 epistemic logic and does not support belief, including false belief. 
+  In this paper, we extend the PWP model to handle multi-agent belief by following the intuition that agents believe something they have seen until they see otherwise. We call this justified perspectives. We formalise this notion of multi-agent belief based on the definition of knowledge in PWP. Using experiments on existing epistemic and doxastic planning benchmarks, we show that our belief planner can solve benchmarks more efficiently than the state-of-the-art baseline, and can model some problems that are infeasible to model using propositional-based approaches.}
+}
+
+@inproceedings{zhang2023grt,
+  title={Goal Recognition with Timing Information},
+  author={Zhang, Chenyuan and Lipovetzky, Nir and Kemp, Charles},
+  booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},
+  volume={33},
+  pages={},
+  year={2023},
+  url={},
+  abstract={Goal recognition has been extensively studied by AI researchers, but most algorithms take only observed actions as input. Here we argue that the time taken to carry out these actions provides an additional signal that supports goal recognition. We present a behavioral experiment confirming that people use timing information in this way, and develop and evaluate a goal recognition algorithm that is sensitive to both actions and timing information. Our results suggest that existing goal recognition algorithms can be improved by incorporating a model of planning time on both synthetic data and human data, and that these improvements can be substantial in scenarios in which relatively few actions have been observed.}
+}
+
+@article{gerevini2023width,
+  title={Width-Based Search for Multi Agent Privacy-Preserving Planning},
+  author={Gerevini, Alfonso E and Lipovetzky, Nir and Percassi, Francesco and Saetti, Alessandro and Serina, Ivan},
+  journal={Artificial Intelligence},
+  pages={103883},
+  year={2023},
+  publisher={Elsevier},
+  abstract={In multi-agent planning, preserving the agents' privacy has become an increasingly popular research topic. For preserving the agents' privacy, agents jointly compute a plan that achieves mutual goals by keeping certain information private to the individual agents. Unfortunately, this can severely restrict the accuracy of the heuristic functions used while searching for solutions. It has been recently shown that, for centralized planning, blind search algorithms such as width-based search can solve instances of many existing domains in low polynomial time when they feature atomic goals. Moreover, the performance of goal-oriented search can be improved by combining it with width-based search. In this paper, we investigate the usage of width-based search in the context of (decentralised) collaborative multi-agent privacy-preserving planning, addressing the challenges related to the agents' privacy and performance. In particular, we show that width-based search is a very effective approach over several benchmark domains, even when the search is driven by heuristics that roughly estimate the distance from goal states, computed without using the private information of other involved agents. Moreover, we show that the use of width-based techniques can significantly reduce the number of messages transmitted among the agents, better preserving their privacy and improving their performance. An experimental study presented in the paper analyses the effectiveness of our techniques, and compares them with the state-of-the-art of collaborative multi-agent planning.},
+  url={https://www.sciencedirect.com/science/article/pii/S0004370223000292?dgcid=coauthor}
+}
+
+@article{fuentes2022animal,
+  title={Animal biometric assessment using non-invasive computer vision and machine learning are good predictors of dairy cows age and welfare: The future of automated veterinary support systems},
+  author={Fuentes, Sigfredo and Viejo, Claudia Gonzalez and Tongson, Eden and Dunshea, Frank R and Dac, Hai Ho and Lipovetzky, Nir},
+  journal={Journal of Agriculture and Food Research},
+  volume={10},
+  pages={100388},
+  year={2022},
+  publisher={Elsevier},
+  abstract={Digitally extracted biometrics from visible videos of farm animals could be used to automatically assess animal welfare, contributing to the future of automated veterinary support systems. This study proposed using non-invasive video acquisition and biometric analysis of dairy cows in a robotic dairy farm (RDF) located at the Dookie campus, The University of Melbourne, Australia. Data extracted from dairy cows were used to develop two machine learning models: a biometrics regression model (Model 1) targeting (i) somatic cell count, (ii) weight, (iii) rumination, and (iv) feed intake and a classification model (Model 2) mapping features from dairy cow's face to predict animal age. Results showed that Model 1 achieved a high correlation coefficient (R = 0.96), slope (b = 0.96), and performance, and Model 2 had high accuracy (98%), low error (2%), and high performance without signs of under or overfitting. Models developed in this study can be used in parallel with other models to assess milk productivity, quality traits, and welfare for RDF and conventional dairy farms.},
+  url={https://www.sciencedirect.com/science/article/pii/S2666154322001211}
+}
+
+@article{dac2022livestock,
+  title={Livestock Identification Using Deep Learning for Traceability},
+  author={Dac, Hai Ho and Gonzalez Viejo, Claudia and Lipovetzky, Nir and Tongson, Eden and Dunshea, Frank R and Fuentes, Sigfredo},
+  journal={Sensors},
+  volume={22},
+  number={21},
+  pages={8256},
+  year={2022},
+  publisher={MDPI},
+  abstract={Farm livestock identification and welfare assessment using non-invasive digital technology have gained interest in agriculture in the last decade, especially for accurate traceability. This study aimed to develop a face recognition system for dairy farm cows using advanced deep-learning models and computer vision techniques. This approach is non-invasive and potentially applicable to other farm animals of importance for identification and welfare assessment. The video analysis pipeline follows standard human face recognition systems made of four significant steps: (i) face detection, (ii) face cropping, (iii) face encoding, and (iv) face lookup. Three deep learning (DL) models were used within the analysis pipeline: (i) face detector, (ii) landmark predictor, and (iii) face encoder. All DL models were finetuned through transfer learning on a dairy cow dataset collected from a robotic dairy farm located in the Dookie campus at The University of Melbourne, Australia. Results showed that the accuracy across videos from 89 different dairy cows achieved an overall accuracy of 84%. The computer program developed may be deployed on edge devices, and it was tested on NVIDIA Jetson Nano board with a camera stream. Furthermore, it could be integrated into welfare assessment previously developed by our research group.},
+  url={https://www.mdpi.com/1424-8220/22/21/8256/pdf?version=1666944685}
+}
+
+@article{hu2022planning,
+  title={Planning with Perspectives--Decomposing Epistemic Planning using Functional STRIPS},
+  author={Hu, Guang and Miller, Tim and Lipovetzky, Nir},
+  journal={Journal of Artificial Intelligence Research},
+  volume={75},
+  pages={489--539},
+  year={2022},
+  abstract={In this paper, we present a novel approach to epistemic planning called planning with perspectives (PWP) that is both more expressive and computationally more efficient than existing state-of-the-art epistemic planning tools. Epistemic planning — planning with knowledge and belief — is essential in many multi-agent and human-agent interaction domains. Most state-of-the-art epistemic planners solve epistemic planning problems by either compiling to propositional classical planning (for example, generating all possible knowledge atoms or compiling epistemic formulae to normal forms); or explicitly encoding Kripke-based semantics. However, these methods become computationally infeasible as problem sizes grow. In this paper, we decompose epistemic planning by delegating reasoning about epistemic formulae to an external solver. We do this by modelling the problem using Functional STRIPS, which is more expressive than standard STRIPS and supports the use of external, black-box functions within action models. Building on recent work that demonstrates the relationship between what an agent ‘sees’ and what it knows, we define the perspective of each agent using an external function, and build a solver for epistemic logic around this. Modellers can customise the perspective function of agents, allowing new epistemic logics to be defined without changing the planner. We ran evaluations on well-known epistemic planning benchmarks to compare an existing state-of-the-art planner, and on new scenarios that demonstrate the expressiveness of the PWP approach. The results show that our PWP planner scales significantly better than the state-of-the-art planner that we compared against, and can express problems more succinctly.},
+  url={https://www.jair.org/index.php/jair/article/download/13446/26853/32149}
+}
+
+@inproceedings{o2022sampling,
+  title={Sampling from Pre-Images to Learn Heuristic Functions for Classical Planning},
+  author={O'Toole, Stefan and Ramirez, Miquel and Lipovetzky, Nir and Pearce, Adrian R},
+  booktitle={Proceedings of the International Symposium on Combinatorial Search},
+  volume={15},
+  number={1},
+  pages={308--310},
+  year={2022},
+  abstract={We introduce a new algorithm, Regression based Supervised Learning (RSL), for learning per instance Neural Network (NN) defined heuristic functions for classical planning problems. RSL uses regression to select relevant sets of states at a range of different distances from the goal. RSL then formulates a Supervised Learning problem to obtain the parameters that define the NN heuristic, using the selected states labeled with exact or estimated distances to goal states. Our experimental study shows that RSL outperforms, in terms of coverage, previous classical planning NN heuristics functions while requiring a fraction of the training time.},
+  url={https://arxiv.org/pdf/2207.03336.pdf}
+}
+
+@book{fuentes2022implementation,
+  title={Implementation of Sensors and Artificial Intelligence for Environmental Hazards Assessment in Urban, Agriculture and Forestry Systems},
+  author={Fuentes, Sigfredo and Unnithan, Ranjith R and Tongson, Eden and Lipovetzky, Nir},
+  year={2022},
+  publisher={MDPI, Basel},
+  abstract={The implementation of artificial intelligence (AI), together with robotics, sensors, sensor networks, Internet of Things (IoT), and machine/deep learning modeling, has reached the forefront of research activities, moving towards the goal of increasing the efficiency in a multitude of applications and purposes related to environmental sciences. The development and deployment of AI tools requires specific considerations, approaches, and methodologies for their effective and accurate applications. This Special Issue focused on the applications of AI to environmental systems related to hazard assessment in urban, agriculture, and forestry areas.},
+  url={https://www.mdpi.com/journal/sensors/special_issues/ISAI}
+}
+
+@article{su2022grace,
+  title={GRACE: A Simulator for Continuous Goal Recognition over Changing Environments},
+  author={Su, Zihang and Polyvyanyy, Artem and Lipovetzky, Nir and Sardina, Sebastian and van Beest, Nick},
+  year={2022},
+  booktitle = {Proceedings of the Workshop on Process Management in the AI Era},
+  abstract={Goal Recognition (GR) is a research problem that studies ways to infer the goal of an intelligent agent based on its observed behavior and knowledge of the environment. A common assumption of GR is that the underlying environment is stationary. However, in many real-world scenarios, it is necessary to recognize agents' goals over extended periods. Therefore, it is reasonable to assume that the environment will change throughout a series of goal recognition tasks. This paper introduces the problem of continuous GR over a changing environment. The solution to this problem is a GR system capable of recognizing agents' goals over an extended period where the environment in which the agents operate changes. To support the evaluation of candidate solutions to this new GR problem, in this paper, we present the Goal Recognition Amidst Changing Environments (GRACE) tool for generating instances of the new problem. Specifically, the tool can be configured to generate GR problems that account for different environmental changes and drifts. GRACE can generate a series of modified environments over discrete time steps and the data induced by agents operating in the environment while completing different goals.},
+  url={https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/77eff318-5f57-4904-9043-f88867c68d09/content}
+}
+
+@inproceedings{gerevini:socs:2022,
+title = "On the use of Width-based search for Multi Agent Privacy-preserving Planning",
+abstract = "The aim of decentralised multi-agent (DMA) planning is to coordinate a set of agents to jointly achieve a goal while preserving their privacy. Blind search algorithms, such as width-based search, have recently proved to be very effective in the context of centralised automated planning, especially when combined with goal-oriented techniques. In this paper, we discuss a recent line of research in which the usage of width-based search has been extensively studied in the context of DMA planning, addressing the challenges related to the agents' privacy and performance.",
+keywords = "Decentralised Multi-Agent (DMA) planning, Width-based search",
+author = "Gerevini, {Alfonso Emilio} and Nir Lipovetzky and Francesco Percassi and Alessandro Saetti and Ivan Serina",
+year = "2022",
+language = "English",
+booktitle = "Proceedings of 15th International Symposium on Combinatorial Search, SoCS",
+url = "https://ojs.aaai.org/index.php/SOCS/article/view/21784",
+}
+
 @inproceedings{lipovetzky2009inference,
   title={Inference and decomposition in planning using causal consistent chains},
   author={Lipovetzky, Nir and Geffner, H{\'e}ctor},

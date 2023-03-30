@@ -19,7 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 #   certificate_url = "https://www.datacamp.com"
 [[item]]
-  organization = "The 30th Joint Conference on Artificial Intelligence"
+  organization = "The 31th Joint Conference on Artificial Intelligence"
+  organization_url = "https://ijcai.org/"
+  title = "IJCAI-ECAI 2021 - Distinguished Program Committee"
+  url = "https://ijcai-22.org/distinguished-pc-members/"
+  date_start = "2022-08-01"
+  description = "The quality of my reviews were ranked in the top 3% out of 3000+ reviewers."
+
+[[item]]
+  organization = "The 30th International Joint Conference on Artificial Intelligence"
   organization_url = "https://ijcai.org/"
   title = "IJCAI 2021 - Early Career Spotlight"
   url = "https://ijcai-21.org/early-career-spotlight-invited-talk/"

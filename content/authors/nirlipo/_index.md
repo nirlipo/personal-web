@@ -33,6 +33,9 @@ interests:
 
 education:
   courses:
+  - course: Graduate Certificate in University Teaching
+    institution: The University of Melbourne
+    year: 2020
   - course: PhD in Artificial Intelligence
     institution: Universitat Pompeu Fabra 
     year: 2012
@@ -79,10 +82,14 @@ user_groups:
 - Visitors
 ---
 
-I am a Senior Lecturer in Artificial intelligencee at the School of [Computing and Information Systems](https://cis.unimelb.edu.au/), [The University of Melbourne](https://www.unimelb.edu.au/). I'm a member of the [Agent Lab group](https://cis.unimelb.edu.au/agentlab/) and the [Digital Agriculture, Food and Wine](https://fvas.unimelb.edu.au/research/groups/digital-agriculture-food-and-wine) lab. I completed my PhD at the [Artificial Intelligence and Machine Learning Group](https://www.upf.edu/web/ai-ml), Universitat Pompeu Fabra, under the supervision of Prof. [Hector Geffner](http://www.dtic.upf.edu/~hgeffner/). I was a research fellow for 3 years under the supervision of Prof. [Peter Stuckey](https://people.eng.unimelb.edu.au/pstuckey/) and Prof. [Adrian Pearce](https://people.eng.unimelb.edu.au/adrianrp/), working on solving [Mining Scheduling](https://cis.unimelb.edu.au/agentlab/mining/) problems through automated planning, constraint programming and operations research techniques.
+I am a Senior Lecturer in Artificial intelligencee at the School of [Computing and Information Systems](https://cis.unimelb.edu.au/), [The University of Melbourne](https://www.unimelb.edu.au/). I'm a member of the [Agent Lab group](https://cis.unimelb.edu.au/agentlab/) and the [Digital Agriculture, Food and Wine](https://fvas.unimelb.edu.au/research/groups/digital-agriculture-food-and-wine) lab. 
+
+My research focuses on how to introduce different approaches to the problem of inference in **sequential decision problems**, as well as applications to **autonomous systems in agriculture**.
+
+I completed my PhD at the [Artificial Intelligence and Machine Learning Group](https://www.upf.edu/web/ai-ml), Universitat Pompeu Fabra, under the supervision of Prof. [Hector Geffner](http://www.dtic.upf.edu/~hgeffner/). I was a research fellow for 3 years under the supervision of Prof. [Peter Stuckey](https://people.eng.unimelb.edu.au/pstuckey/) and Prof. [Adrian Pearce](https://people.eng.unimelb.edu.au/adrianrp/), working on solving [Mining Scheduling](https://cis.unimelb.edu.au/agentlab/mining/) problems through automated planning, constraint programming and operations research techniques.
 
 <!-- My interests span across research areas in **AI planning, search, learning, verification, constraint programming, operations research and intention recognition**.  -->
 
-My research focuses on how to introduce different approaches to the problem of inference in **sequential decision problems**, as well as applications to **autonomous systems**.
+
 
 <!-- I'm involved in the development of the Lightweight Automated Planning ToolKiT (LAPKT), aimed to make your life easier if your purpose is to create, use or extend basic to advanced Automated Planners. -->

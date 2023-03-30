@@ -25,6 +25,12 @@ date_format = "Jan 2006"
 
 #### Ph.D.
 
+- `Ciao Lei` [2022 - current]. **co-supervised** with Dr. Kris Ehinger and A/Prof Sigfredo Fuentes, **Topic**: Generalized vision planning problems and their applications in Agriculture.
+
+- `Zhiaho Pei` [2022 - current]. **co-supervized** with Dr. Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Robust decision making for complex systems.
+
+- `Sukai Huang` [2022 - current]. **co-supervized** with Prof. Trevor Cohn, **Topic**: NLP and sequential decision problems.
+
 - `Guang Hu` [2020 - current], **co-supervised** with Dr.Tim Miller. **Topic**: Epistemic Planning and Explanability.
 
 - `Zihang Su` [2020 - current], **co-supervised** with Dr. Artem Polyvyanyy and Prof. Sebastian Sardina. **Topic**: Bridging the gap between Process Mining and Goal-Plan-Intention Recognition 
@@ -33,23 +39,21 @@ date_format = "Jan 2006"
 
 - `Anubhav Singh` [2019 - current], **co-supervized** with Dr. Miquel Ramirez. **Topic**: Planing with polynomial guarantees for bounded computational resources
 
-- `Stefan O'Toole` [2018 - current], **co-supervized** with Dr. Miquel Ramirez and Prof. Adrian Pearce. **Topic**: Bridging Planning and Reinforcement Learning over continous and discrete dynamics
-
-#### Masters
-
-- `Zhiaho Pei` [2021]. **co-supervized** with Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Robust decision making for complex systems
-- `Marco Marasco` [2021]. **co-supervized** with Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Adaptive Policy making for systems of electricity provision
-- `Jiayuan Chah` [2021]. **co-supervized** with A/Prof Sigfredo Fuentes, **Topic**: FarmBot.io Planning: simulation and integration
-- `Yajing Ma` [2021].  **co-supervized** with A/Prof Sigfredo Fuentes, **Topic**: Electronic Nose for pest detection
 
 
 ### Alumni 
 
 #### Ph.D.
+- `Stefan O'Toole` [2018 - 2022], **co-supervized** with Dr. Miquel Ramirez and Prof. Adrian Pearce. **Topic**: Bridging Planning and Reinforcement Learning over continous and discrete dynamics **First Employment:** Meta [2022 - current]
 
 - ``Toby Davies``, [2013-2017], **co-supervized** with Prof. Adrian Pearce, Prof. Peter Stuckey and Prof. Harald Sondergaard. **Topic**: Learning from Conflict in Multi-Agent, Classical, and Temporal Planning. **First Employment:** Google [2017 - current]. **Best Paper Award** `ICAPS (2015)`, **Best PhD Thesis**, `Melbourne School of Engineering  2018`
 
 #### Masters
+
+- `Zhiaho Pei` [2021]. **co-supervized** with Dr. Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Robust decision making for complex systems
+- `Marco Marasco` [2021]. **co-supervized** with Dr. Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Adaptive Policy making for systems of electricity provision
+- `Jiayuan Chah` [2021]. **co-supervized** with A/Prof Sigfredo Fuentes, **Topic**: FarmBot.io Planning: simulation and integration
+- `Yajing Ma` [2021].  **co-supervized** with A/Prof Sigfredo Fuentes, **Topic**: Electronic Nose for pest detection
 
 - `Dmitry Grebenyuk` [2018-2020], **co-supervised** with Dr. Miquel Ramirez, and Dr. Kris Ehinger. **Topic**: Agnostic Features for generalized policies computed with Deep Reinforcement Learning. **First Employment:** Start-up working on Image Processing using DRL.
 

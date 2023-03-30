@@ -2,7 +2,9 @@
 
 # amended by isabellhl.github.io
 # on 7 Oct 2019
-
+# 
+# Update biblio with cmd: academic import --bibtex bib/biblio_nir.bib
+#
 # If a command fails then the deploy stops
 set -e
 

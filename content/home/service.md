@@ -33,19 +33,20 @@ date_format = "Jan 2006"
 
 - Heuristics and Search for Domain-independent Planning -- Co-Organizer,  `ICAPS workshop HSDIP (2015,2016,2017,2018)`
 
+- Demonstration track -- Co-Chair `AAAI 2023`
 - Student Abstract track -- Co-Chair, `AAAI (2018,2019)`
 
 - Journal Presentation track -- Co-Chair `ICAPS (2018)`
 
-### Senior Programme Committee 
+### Senior Program Committee 
 
-- Association for the Advancement of Artificial Intelligence, `AAAI (2020,2021,2022)`
-- International Joint Conferences on Artificial Intelligence `IJCAI (2021,2022)`
+- Association for the Advancement of Artificial Intelligence, `AAAI (2020,2021,2022,2023)`
+- International Joint Conferences on Artificial Intelligence `IJCAI (2021,2023)`
 
 
-### Programme Committee 
+### Program Committee 
 
-- International Joint Conferences on Artificial Intelligence `IJCAI (2011,2013,2015,2017,2018,2020)`
+- International Joint Conferences on Artificial Intelligence `IJCAI (2011,2013,2015,2017,2018,2020,2022)`
 
 - Association for the Advancement of Artificial Intelligence, `AAAI (2013,2015,2016,2017,2018,2019)`
 
@@ -53,7 +54,7 @@ date_format = "Jan 2006"
 
 - International Conference on Automated Planning and Scheduling, `ICAPS (2015,2016,2017,2018,2020)`
 
-- Symposium on Combinatorial Search `SOCS (2020,2021)`
+- Symposium on Combinatorial Search `SOCS (2020,2021,2022,2023)`
 
 
 ### Reviewer

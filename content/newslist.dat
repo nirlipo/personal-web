@@ -1,4 +1,7 @@
-**[01/11/21]** New Paper on [Width-based Lookaheads with Learnt Base Policies and Heuristics Over the Atari-2600 Benchmark](/publication/stefan-neurips/), published@NeurIPS-21, selected for a spotlight at the conference (<3% acceptance rate).
-**[01/09/21]** Early Career Spotlight on [Width-Based Algorithms for Common Problems in Control, Planning and Reinforcement Learning](/publication/nir-2021-ijcai/), published@IJCAI-21.
-**[01/08/21]** New paper on [Approximate Novelty Search](/publication/singh-2021-approximate/), published@ICAPS-21.
-**[01/08/21]** New paper on [Width-Based Backward Search](/publication/lei-2021-width/) published@ICAPS-21
+**[04/23]** New ICAPS-23 Paper on [Planning with Multi-agent Belief Using Justified Perspectives](/publication/hu-2023-pwp/)
+**[04/23]** New ICAPS-23 Paper  on [Goal Recognition with Timing Information](/publication/zhang-2023-grt/)
+**[03/23]** New AIJ Paper on [Width-based search for multi agent privacy-preserving planning](/publication/gerevini-2023-width/)
+**[10/22]** New JAIR Paper on [Planning with Perspectives -- Decomposing Epistemic Planning using Functional STRIPS](/publication/hu-2022-planning/)
+**[07/22]** New SOCS-22 paper on [Sampling from Pre-Images to Learn Heuristic Functions for Classical Planning](/publication/o-2022-sampling/)
+**[07/22]** MasterClass on [Width-Based Planning: Searching for Novelty](https://socs2022.unibs.it/privacy/invited-speakers) SoCS 2022: The 15th International Symposium on Combinatorial Search
+
