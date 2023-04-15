@@ -4,7 +4,7 @@ summary: Planning as a Service (PaaS) is an extendable API to deploy planners on
 tags:
 - AI Planning
 - Teaching
-date: "2016-04-27T00:00:00Z"
+date: "2023-04-12T00:00:00Z"
 
 links:
 #- name: Inter University Competition
