@@ -21,7 +21,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "The 31th Joint Conference on Artificial Intelligence"
   organization_url = "https://ijcai.org/"
-  title = "IJCAI-ECAI 2021 - Distinguished Program Committee"
+  title = "IJCAI-ECAI 2022 - Distinguished Program Committee"
   url = "https://ijcai-22.org/distinguished-pc-members/"
   date_start = "2022-08-01"
   description = "The quality of my reviews were ranked in the top 3% out of 3000+ reviewers."

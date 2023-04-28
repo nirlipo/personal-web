@@ -86,7 +86,7 @@ I am a Senior Lecturer in Artificial intelligencee at the School of [Computing a
 
 My research focuses on how to introduce different approaches to the problem of inference in **sequential decision problems**, as well as applications to **autonomous systems in agriculture**.
 
-I completed my PhD at the [Artificial Intelligence and Machine Learning Group](https://www.upf.edu/web/ai-ml), Universitat Pompeu Fabra, under the supervision of Prof. [Hector Geffner](http://www.dtic.upf.edu/~hgeffner/). I was a research fellow for 3 years under the supervision of Prof. [Peter Stuckey](https://people.eng.unimelb.edu.au/pstuckey/) and Prof. [Adrian Pearce](https://people.eng.unimelb.edu.au/adrianrp/), working on solving [Mining Scheduling](https://cis.unimelb.edu.au/agentlab/mining/) problems through automated planning, constraint programming and operations research techniques.
+I completed my PhD at the [Artificial Intelligence and Machine Learning Group](https://www.upf.edu/web/ai-ml), Universitat Pompeu Fabra, under the supervision of Prof. [Hector Geffner](http://www.dtic.upf.edu/~hgeffner/). I was a research fellow for 3 years under the supervision of Prof. [Peter Stuckey](https://people.eng.unimelb.edu.au/pstuckey/) and Prof. [Adrian Pearce](https://people.eng.unimelb.edu.au/adrianrp/), working on solving [Mining Scheduling](https://cis.unimelb.edu.au/agentlab/projects/mining) problems through automated planning, constraint programming and operations research techniques.
 
 <!-- My interests span across research areas in **AI planning, search, learning, verification, constraint programming, operations research and intention recognition**.  -->
 
