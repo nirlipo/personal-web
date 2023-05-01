@@ -11,7 +11,7 @@ links:
 #  url: https://sites.google.com/view/pacman-capture-hall-fame
   # icon_pack: fas
   # icon: books
-url_code: "https://github.com/AI4EDUC/"
+url_code: "https://github.com/AI-Planning/planning-as-a-service"
 url_pdf: "project/paas/ICAPS_23_Demo.pdf"
 url_video: "https://www.loom.com/share/7d72759cd71c47db9032970fddcb3e71"
 
