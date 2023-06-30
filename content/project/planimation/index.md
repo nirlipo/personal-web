@@ -13,7 +13,7 @@ links:
   # icon: books
 url_code: "https://github.com/planimation/"
 url_pdf: "https://arxiv.org/abs/2008.04600"
-url_video: "https://www.youtube.com/watch?v=Cj2rWdt1YQU&feature=youtu.be"
+url_video: "https://www.youtube.com/watch?v=8SH7MbVnK4U&feature=youtu.be"
 
 
 # Optional external URL for project (replaces project detail page).
@@ -37,9 +37,9 @@ Planimation was developed as a final year project by students at the Univeristy 
 
 Planimation is an open-source program which visualises solutions to Planning Problems. It is an executable Unity architecture in a browser.
 
-Watch the video below for a 2 minutes introduction about Planimation.
+<!-- Watch the video below for a 2 minutes introduction about Planimation.
 
-{{< youtube Cj2rWdt1YQU >}}
+{{< youtube Cj2rWdt1YQU >}} -->
 
 ## Awards
 

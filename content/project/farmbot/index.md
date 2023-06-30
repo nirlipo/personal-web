@@ -51,6 +51,12 @@ The Student Precinct has supported our lab at CIS and FVAS to support interdisci
 ![image](./sp2.jpg)
 ![image](./sp3.jpg)
 
+## Farm.Bot E-nose senosr integration
+
+Watch the video below for a 3 minutes introduction about the new Farm.bot E-nose.
+
+{{< youtube haKIpkQ0OBE >}} -->
+
 ## Farm.Bot Unity Simulator
 
 The Unity Simulator controlled by AI Planners was developed as a Master research project by Jiayuan during the COVID period, while we didn't have access to the physical platform.
