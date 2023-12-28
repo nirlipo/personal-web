@@ -1,0 +1,32 @@
+@masterthesis{dmitry-master,
+ abstract = {A Markov decision process (MDP) cannot be used for learning end-to-end control policies
+in Reinforcement Learning when the dimension of the feature vectors changes from one
+trial to the next. For example, this difference is present in an environment where the
+number of blocks to manipulate can vary. Because we cannot learn a different policy
+for each number of blocks, we suggest framing the problem as a POMDP instead of the
+MDP. It allows us to construct a constant observation space for a dynamic state space.
+There are two ways we can achieve such construction.
+First, we can design a hand-crafted set of observations for a particular problem. However,
+that set cannot be readily transferred to another problem, and it often requires domaindependent
+knowledge.
+On the other hand, a set of observations can be deduced from visual observations. This
+approach is universal, and it allows us to easily incorporate the geometry of the problem
+into the observations, which can be challenging to hard-code in the former method.
+In this Thesis, we examine both of these methods. Our goal is to learn policies that
+can be generalised to new tasks. First, we show that a more general observation space
+can improve the performance of policies tested in untrained tasks. Second, we show
+that meaningful feature vectors can be obtained from visual observations. If properly
+regularised, these vectors can re
+ect the spacial structure of the state space and used
+for planning. Using these vectors, we construct an auto-generated reward function, able
+to learn working policies.},
+ address = {Melbourne, Australia},
+ author = {Dmitry Grebenyuk},
+ month = {October},
+ school = {The University of Melbourne},
+ title = {Learning to Generalise through Features - Masters Thesis},
+ type = {Master's thesis},
+ url = {},
+ year = {2020}
+}
+

@@ -1,0 +1,1 @@
+academic import --bibtex bib/biblio_nirlipo.bib --publication_dir  content/publication/ 

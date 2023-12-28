@@ -1,0 +1,35 @@
+@masterthesis{chao-master,
+ abstract = {The current study on duality mapping proposed by Suda (2013) is a viable strategy to
+turn progression (forward search) into regression (backward search), and the experiment
+results suggest that the dual versions of standard IPCs benchmark domains are quite
+difficult to solve for heuristic-based search. We adopt width-based search (IW and SIW)
+in this thesis to test the performance on dual problems. The experiment results show
+that dual problems can be solved efficiently when the goal state is restricted to single
+fluent, but it becomes challenging when the goal state contains conjunctive fluents.
+Then, we turn serialized iterated width, SIW, best-first width search with the evaluation
+function f 5, BFWS(f5), and the polynomial variants of BFWS(f5), k-BFWS(f5) from
+progression into regression by modifying the state space. Results show that the backward
+versions are uncompetitive with the forward versions but still outperform in some IPCs
+benchmark domains in all SIW, BFWS(f5) and k-BFWS(f5).
+Furthermore, we build a bidirectional search, k-BFWBS by integrating forward and
+backward k-BFWS(f5) with six different combinations. Although these six combinations
+cannot solve more problems than only adopting forward k -BFWS(f 5) among tested IPCs
+benchmark domains, they are distinctive. However, if we run forward k -BFWS(f5) first
+and then run backward k-BFWS(f5), it outperforms only running forward k-BFWS(f5),
+which proves that backward search is useful.
+All results in this thesis indicate that although backward search is uncompetitive and
+multiple issues still exist, it is still worthy of having a deep exploration of backward
+search since it not only finds more plans in some domains but also proposes a different
+perspective to analyse classical planning tasks. Meanwhile, we point out the weaknesses
+of backward search and give relevant solutions, and a new method complete domain is
+presented to perfect backward search.},
+ address = {Melbourne, Australia},
+ author = {Chao Lei},
+ month = {October},
+ school = {The University of Melbourne},
+ title = {Width-Based Backward Search - Master Thesis},
+ type = {Master's thesis},
+ url = {},
+ year = {2020}
+}
+

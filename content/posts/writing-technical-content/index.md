@@ -273,7 +273,6 @@ You found me!
 
 renders as
 
-{{< spoiler text="Click to view the spoiler" >}} You found me! {{< /spoiler >}}
 
 ### Icons
 

@@ -1,3 +1,179 @@
+@masterthesis{yajing-master,
+ abstract = {non-professional personnel, thus it does not apply to non-commercial farmers.
+This paper implements a cost-effective pest detection method that can be used for microfarmers
+by using a low-cost electronic nose and machine learning modelling. This method
+was realized by conducting a controlled experiment and making measurements, we designed
+and conducted controlled experiment using wheat and an oat aphid as experimental materials,
+while measurements were made using E-nose and an open gas exchange system to acquire
+data sets used for model construction.
+Artificial Neural Network (ANN) was used to develop three models including two
+classification models and one regression model. These classification models are able to
+classify the level of pest infestation based on E-nose measurements and the regression model
+can predict three physiological parameters including photosynthesis, stomatal conductance
+and transpiration based on E-nose measurements. Both classification models achieve high
+accuracy around 98% and the best one of them was confirmed through model evaluation and
+analysis to have no over-fitting or under-fitting problems. The regression model has the
+performance of overall correlation coefficient 0.79. Model evaluation were analyzed based on
+accuracy, Mean Squared Error (MSE) and correlation coefficient. These three models enable
+the method implemented in this study to detect pests efficiently and reliably.},
+ address = {Melbourne, Australia},
+ author = {Yajing MA},
+ month = {June},
+ school = {The University of Melbourne},
+ title = {Pest Detection in Wheat by Integrating a Low-cost
+Electronic nose and Machine Learning Modelling - Masters Thesis},
+ type = {Master's thesis},
+ url = {},
+ year = {2022}
+}
+
+
+
+@masterthesis{dmitry-master,
+ abstract = {A Markov decision process (MDP) cannot be used for learning end-to-end control policies
+in Reinforcement Learning when the dimension of the feature vectors changes from one
+trial to the next. For example, this difference is present in an environment where the
+number of blocks to manipulate can vary. Because we cannot learn a different policy
+for each number of blocks, we suggest framing the problem as a POMDP instead of the
+MDP. It allows us to construct a constant observation space for a dynamic state space.
+There are two ways we can achieve such construction.
+First, we can design a hand-crafted set of observations for a particular problem. However,
+that set cannot be readily transferred to another problem, and it often requires domaindependent
+knowledge.
+On the other hand, a set of observations can be deduced from visual observations. This
+approach is universal, and it allows us to easily incorporate the geometry of the problem
+into the observations, which can be challenging to hard-code in the former method.
+In this Thesis, we examine both of these methods. Our goal is to learn policies that
+can be generalised to new tasks. First, we show that a more general observation space
+can improve the performance of policies tested in untrained tasks. Second, we show
+that meaningful feature vectors can be obtained from visual observations. If properly
+regularised, these vectors can re
+ect the spacial structure of the state space and used
+for planning. Using these vectors, we construct an auto-generated reward function, able
+to learn working policies.},
+ address = {Melbourne, Australia},
+ author = {Dmitry Grebenyuk},
+ month = {October},
+ school = {The University of Melbourne},
+ title = {Learning to Generalise through Features - Masters Thesis},
+ type = {Master's thesis},
+ url = {},
+ year = {2020}
+}
+
+
+@masterthesis{guang-master,
+    title        = {What you get is what you see:
+Decomposing Epistemic Planning
+using Functional STRIPS - Masters Thesis},
+    author       = {Guang Hu},
+    year         = 2020,
+    month        = {October},
+    address      = {Melbourne, Australia},
+    url         =  {},
+    school       = {The University of Melbourne},
+    type         = {Master's thesis},
+    abstract     = {Epistemic planning — planning with knowledge and belief — is essential
+in many multi-agent and human-agent interaction domains. Most stateof-
+the-art epistemic planners solve this problem by compiling to propositional
+classical planning, for example, generating all possible knowledge
+atoms, or compiling epistemic formula to normal forms. It is noted that the
+compilations are typically exponentially larger than the original problem.
+However, these methods become computationally infeasible as problems
+grow. In addition, those methods only works on propositional variables in
+discrete domains.
+In this thesis, we decompose epistemic planning by delegating epistemic
+logic reasoning to an external solver. We do this by modelling the
+problem using functional STRIPS, which is more expressive than standard
+STRIPS and supports the use of external, black-box functions within action
+models. Exploiting recent work that demonstrates the relationship between
+what an agent ‘sees’ and what it knows, we allow modellers to provide
+new implementations of externals functions. These define what agents see
+in their environment, allowing new epistemic logics to be defined without
+changing the planner. As a result, the capability and flexibility of the
+epistemic model itself are increased, as our model is able to avoid exponential
+pre-compilation steps and handle logics from continuous domains.
+We ran evaluations on well-known epistemic planning benchmarks to compare
+with an existing state-of-the-art planner, and on new scenarios based
+on different external functions. The results show that our planner scales
+significantly better than the state-of-the-art planner which we compared
+against, and can express problems more succinctly.}
+}
+
+@masterthesis{chao-master,
+    title        = {Width-Based Backward Search - Master Thesis},
+    author       = {Chao Lei},
+    year         = 2020,
+    month        = {October},
+    address      = {Melbourne, Australia},
+    url         =  {},
+    school       = {The University of Melbourne},
+    type         = {Master's thesis},
+    abstract     = {The current study on duality mapping proposed by Suda (2013) is a viable strategy to
+turn progression (forward search) into regression (backward search), and the experiment
+results suggest that the dual versions of standard IPCs benchmark domains are quite
+difficult to solve for heuristic-based search. We adopt width-based search (IW and SIW)
+in this thesis to test the performance on dual problems. The experiment results show
+that dual problems can be solved efficiently when the goal state is restricted to single
+fluent, but it becomes challenging when the goal state contains conjunctive fluents.
+Then, we turn serialized iterated width, SIW, best-first width search with the evaluation
+function f 5, BFWS(f5), and the polynomial variants of BFWS(f5), k-BFWS(f5) from
+progression into regression by modifying the state space. Results show that the backward
+versions are uncompetitive with the forward versions but still outperform in some IPCs
+benchmark domains in all SIW, BFWS(f5) and k-BFWS(f5).
+Furthermore, we build a bidirectional search, k-BFWBS by integrating forward and
+backward k-BFWS(f5) with six different combinations. Although these six combinations
+cannot solve more problems than only adopting forward k -BFWS(f 5) among tested IPCs
+benchmark domains, they are distinctive. However, if we run forward k -BFWS(f5) first
+and then run backward k-BFWS(f5), it outperforms only running forward k-BFWS(f5),
+which proves that backward search is useful.
+All results in this thesis indicate that although backward search is uncompetitive and
+multiple issues still exist, it is still worthy of having a deep exploration of backward
+search since it not only finds more plans in some domains but also proposes a different
+perspective to analyse classical planning tasks. Meanwhile, we point out the weaknesses
+of backward search and give relevant solutions, and a new method complete domain is
+presented to perfect backward search.}
+}
+
+@article{anu-ipc10-ap,
+  title={Approximate Novelty Search},
+  author={Singh, Anubhav and Lipovetzky, Nir and Ramirez, Miquel and Segovia-Aguas, Javier},
+  journal={Proceedings International Planning Competition (IPC-10)},
+  year={2023},
+  url={},
+  abstract={Width-based search is an effective approach to classical planning which has produced many successful algorithms over the years. A key feature which distinguishes width-based search from classic heuristic search algorithms is the use of specific structural properties of the explored state space to guide the exploration and goal-directed heuristic measures for exploitation. The structural properties are captured as an n-ary relation over the fluents which is processed to compute the state novelty. The size of the relation and the time complexity of computing novelty measure is exponential on the arity n. Approximate novelty search introduces novel polynomial approximations of state novelty and width-based search. It uses Bloom filter to efficiently represent the interpretation of the relational predicate and random sampling in the computation of state novelty. It also uses an adaptive policy which decides to delay the generation of successor states. In this paper, we explain the integration of these two techniques into the polynomial-time variant of Best-First Width Search (BFWS), one of the most successful width-based algorithm in satisficing planning.}
+}
+
+
+@article{anu-ipc10-fb,
+  title={Forward Backward Novelty Search},
+  author={Singh, Anubhav and Lei, Chao and Lipovetzky, Nir and Ramirez, Miquel and Segovia-Aguas, Javier},
+  journal={Proceedings International Planning Competition (IPC-10)},
+  year={2023},
+  url={},
+  abstract={It has been shown recently that width-based search algorithms can be employed to search over the regression space (backward search). While many benchmarks are challenging for the width-based backward search, it performs significantly better than the forward counterparts in certain domains. This orthogonal behavior of forward and backward width-based search is quite suitable for an integrated approach. Indeed, it has been shown that a simple forward-backward integration that runs forward best-first width search (BFWS) with novelty pruning followed by the backward counterpart results in better coverage than both. Similarly, pairing forward-backward pruned BFWS algorithm with the state-of-the-art Dual-BFWS improves the overall coverage over the IPC satisficing benchmark. In this paper, we
+present an integration of approximate novelty search with the forward-backward BFWS.}
+}
+
+@article{anu-ipc10-gringo,
+  title={Grounding Schematic Representation with GRINGO for Width-based Search},
+  author={Singh, Anubhav and Lipovetzky, Nir and Ramirez, Miquel and Segovia-Aguas, Javier and Frances, Guillem},
+  journal={Proceedings International Planning Competition (IPC-10)},
+  year={2023},
+  url={},
+  abstract={ This short paper describes the main components in a width-based planner that relies on compilations of the problem of efficiently grounding action schemas 
+    to that of enumerating the stable models of an Answer Set Program (ASP). We observe that this ``pre-processing'' component, very often overlooked, is of significant importance to analyze the behavior of planning algorithms that rely on grounded representations of planning problem instances.}
+}
+
+@article{lei-ipc10,
+  title={IPC Learning Track: Novelty-Based Generalized Planning},
+  author={Lei, Chao and Lipovetzky, Nir and Ehinger, Krista A.},
+  journal={Proceedings International Planning Competition (IPC-10)},
+  year={2023},
+  url={https://ipc2023-learning.github.io/abstracts/npgp.pdf},
+  abstract={It has been shown recently that successful techniques in classical planning, such as goal-oriented heuristics and landmarks, can improve the ability to compute planning programs for generalized planning (GP) problems. Besides fact landmarks, other ideas in classical planning have not been introduced to generalized planning, such as novelty-based search. In this paper, we present novelty-based generalized planning solvers, which prune a newly generated planning program if its most frequent action repetition is greater than a given bound v, implemented by novelty-based Progressive Generalized Planning PGP(v). Besides, we introduce new structural program restrictions to scale up the search.}
+}
+
 @article{evella-ieee-ral,
   author={Vella, Elena M. and Chapman, Airlie and Lipovetzky, Nir},
   journal={IEEE Robotics and Automation Letters}, 

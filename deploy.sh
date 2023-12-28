@@ -11,7 +11,8 @@ set -e
 printf "\033[0;32m Building site:\033[0m\n"
 
 # Build the project.
-hugo -t academic -d ../nirlipo.github.io # if using a theme, replace with `hugo -t <YOURTHEME>`
+#hugo -t academic -d ../nirlipo.github.io # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -d ../nirlipo.github.io # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 

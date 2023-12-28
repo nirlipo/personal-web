@@ -1,0 +1,38 @@
+@masterthesis{guang-master,
+ abstract = {Epistemic planning — planning with knowledge and belief — is essential
+in many multi-agent and human-agent interaction domains. Most stateof-
+the-art epistemic planners solve this problem by compiling to propositional
+classical planning, for example, generating all possible knowledge
+atoms, or compiling epistemic formula to normal forms. It is noted that the
+compilations are typically exponentially larger than the original problem.
+However, these methods become computationally infeasible as problems
+grow. In addition, those methods only works on propositional variables in
+discrete domains.
+In this thesis, we decompose epistemic planning by delegating epistemic
+logic reasoning to an external solver. We do this by modelling the
+problem using functional STRIPS, which is more expressive than standard
+STRIPS and supports the use of external, black-box functions within action
+models. Exploiting recent work that demonstrates the relationship between
+what an agent ‘sees’ and what it knows, we allow modellers to provide
+new implementations of externals functions. These define what agents see
+in their environment, allowing new epistemic logics to be defined without
+changing the planner. As a result, the capability and flexibility of the
+epistemic model itself are increased, as our model is able to avoid exponential
+pre-compilation steps and handle logics from continuous domains.
+We ran evaluations on well-known epistemic planning benchmarks to compare
+with an existing state-of-the-art planner, and on new scenarios based
+on different external functions. The results show that our planner scales
+significantly better than the state-of-the-art planner which we compared
+against, and can express problems more succinctly.},
+ address = {Melbourne, Australia},
+ author = {Guang Hu},
+ month = {October},
+ school = {The University of Melbourne},
+ title = {What you get is what you see:
+Decomposing Epistemic Planning
+using Functional STRIPS - Masters Thesis},
+ type = {Master's thesis},
+ url = {},
+ year = {2020}
+}
+
