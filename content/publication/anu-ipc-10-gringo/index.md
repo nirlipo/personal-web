@@ -41,5 +41,5 @@ abstract: " This short paper describes the main components in a width-based plan
   \ importance to analyze the behavior of planning algorithms that rely on grounded\
   \ representations of planning problem instances."
 publication: '*Proceedings International Planning Competition (IPC-10)*'
-url_pdf: 'publication/guang-master/ipc2023_grounding_with_tarski_for_width_based_planners.pdf'
+url_pdf: 'publication/anu-ipc-10-gringo/ipc2023_grounding_with_tarski_for_width_based_planners.pdf'
 ---

@@ -46,5 +46,5 @@ abstract: It has been shown recently that width-based search algorithms can be e
   benchmark. In this paper, we present an integration of approximate novelty search
   with the forward-backward BFWS.
 publication: '*Proceedings International Planning Competition (IPC-10)*'
-url_pdf: 'publication/guang-master/ipc2023_bidirectional_novelty.pdf'
+url_pdf: 'publication/anu-ipc-10-fb/ipc2023_bidirectional_novelty.pdf'
 ---

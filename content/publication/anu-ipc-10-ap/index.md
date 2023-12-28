@@ -49,5 +49,5 @@ abstract: Width-based search is an effective approach to classical planning whic
   Width Search (BFWS), one of the most successful width-based algorithm in satisficing
   planning.
 publication: '*Proceedings International Planning Competition (IPC-10)*'
-url_pdf: 'publication/guang-master/ipc2023_apx_novelty_search.pdf'
+url_pdf: 'publication/anu-ipc-10-ap/ipc2023_apx_novelty_search.pdf'
 ---
