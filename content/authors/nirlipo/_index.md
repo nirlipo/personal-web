@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Lecturer in Artificial Intelligence
+role: Associate Professor in Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
@@ -82,7 +82,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Senior Lecturer in Artificial intelligencee at the School of [Computing and Information Systems](https://cis.unimelb.edu.au/), [The University of Melbourne](https://www.unimelb.edu.au/). I'm a member of the [Agent Lab group](https://cis.unimelb.edu.au/agentlab/) and the [Digital Agriculture, Food and Wine](https://fvas.unimelb.edu.au/research/groups/digital-agriculture-food-and-wine) lab. 
+I am an Associate Professor in Artificial intelligencee at the School of [Computing and Information Systems](https://cis.unimelb.edu.au/), [The University of Melbourne](https://www.unimelb.edu.au/). I'm a member of the [Agent Lab group](https://cis.unimelb.edu.au/agentlab/) and the [Digital Agriculture, Food and Wine](https://fvas.unimelb.edu.au/research/groups/digital-agriculture-food-and-wine) lab. 
 
 My research focuses on how to introduce different approaches to the problem of inference in **sequential decision problems**, as well as applications to **autonomous systems in agriculture**.
 
