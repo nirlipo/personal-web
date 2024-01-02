@@ -76,9 +76,9 @@ The Unity Simulator controlled by AI Planners was developed as a Master research
 
 ![image](./archunity.png)
 
-Likn to the [github codebase](https://github.com/The-Kharsair-Empire/ROSfarm)
+Link to the [github codebase](https://github.com/The-Kharsair-Empire/ROSfarm)
 
-Jiayuan's Master Thesis is [availabe online as a PDF](/publication/jiayuan-master/)
+Jiayuan's Master Thesis is [availabe online](/publication/jiayuan-master/)
 
 ## Interested in working with the Farm.bots?
 
