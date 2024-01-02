@@ -21,6 +21,10 @@ date_format = "Jan 2006"
 
 +++
 
+### Conference Chair
+
+- International Conference on Automated Planning and Scheduling, `ICAPS (2025)`
+
 ### Program Chair
 
 - International Conference on Automated Planning and Scheduling, `ICAPS (2019)`
@@ -62,3 +66,7 @@ date_format = "Jan 2006"
 - Journal of Artificial Intelligence Research, `JAIR`
 
 - Reviewer Artificial Intelligence, Elsevier `AIJ`
+
+### Other
+
+- ICAPS Awards Committee 2024

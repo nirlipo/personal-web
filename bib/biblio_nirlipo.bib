@@ -1,3 +1,54 @@
+@inproceedings{su2023data,
+  title={Data-Driven Goal Recognition in Transhumeral Prostheses Using Process Mining Techniques},
+  author={Su, Zihang and Yu, Tianshi and Lipovetzky, Nir and Mohammadi, Alireza and Oetomo, Denny and Polyvyanyy, Artem and Sardi{\~n}a, Sebastian and Tan, Ying and van Beest, Nick},
+  booktitle={2023 5th International Conference on Process Mining (ICPM)},
+  pages={25--32},
+  year={2023},
+  organization={IEEE},
+  url={https://ieeexplore.ieee.org/abstract/document/10271945},
+  abstract={A transhumeral prosthesis restores missing anatomical segments below the shoulder, including the hand. Active prostheses utilize real-valued, continuous sensor data to recognize patient target poses, or goals, and proactively move the artificial limb. Previous studies have examined how well the data collected in stationary poses, without considering the time steps, can help discriminate the goals. In this case study paper, we focus on using time series data from surface electromyography electrodes and kinematic sensors to sequentially recognize patients' goals. Our approach involves transforming the data into discrete events and training an existing process mining-based goal recognition system. Results from data collected in a virtual reality setting with ten subjects demonstrate the effectiveness of our proposed goal recognition approach, which achieves significantly better precision and recall than the state-of-the-art machine learning techniques and is less confident when wrong, which is beneficial when approximating smoother movements of prostheses.}
+}
+
+@article{su2023fast,
+  title={Fast and accurate data-driven goal recognition using process mining techniques},
+  author={Su, Zihang and Polyvyanyy, Artem and Lipovetzky, Nir and Sardi{\~n}a, Sebastian and van Beest, Nick},
+  journal={Artificial Intelligence},
+  volume={323},
+  pages={103973},
+  year={2023},
+  publisher={Elsevier},
+  url={https://www.sciencedirect.com/science/article/pii/S0004370223001194},
+  abstract={The problem of goal recognition requests to automatically infer an accurate probability distribution over possible goals an autonomous agent is attempting to achieve in the environment. The state-of-the-art approaches for goal recognition operate under full knowledge of the environment and possible operations the agent can take. This knowledge, however, is often not available in real-world applications. Given historical observations of the agents' behaviors in the environment, we learn skill models that capture how the agents achieved the goals in the past. Next, given fresh observations of an agent, we infer their goals by diagnosing deviations between the observations and all the available skill models. We present a framework that serves as an outline for implementing such data-driven goal recognition systems and its instance system implemented using process mining techniques. The evaluations we conducted using our publicly available implementation confirm that the approach is well-defined, i.e., all system parameters impact its performance, has high accuracy over a wide range of synthetic and real-world domains, which is comparable with the more knowledge-demanding state-of-the-art approaches, and operates fast.}
+}
+
+@inproceedings{benke2023diverse,
+  title={Diverse, Top-k, and Top-Quality Planning Over Simulators},
+  author={Benke, Lyndon and Miller, Tim and Papasimeon, Michael and Lipovetzky, Nir},
+  booktitle={Proceedings of the 26th European Conference on Artificial Intelligence (ECAI)},
+  pages={540--545},
+  year={2023},
+  organization={IOS Press},
+  url={https://ebooks.iospress.nl/doi/10.3233/FAIA230275},
+  abstract={Diverse, top-k, and top-quality planning are concerned with the generation of sets of solutions to sequential decision problems. Previously this area has been the domain of classical planners that require a symbolic model of the problem instance. This paper proposes a novel alternative approach that uses Monte Carlo Tree Search (MCTS), enabling application to problems for which only a black-box simulation model is available. We present a procedure for extracting bounded sets of plans from pre-generated search trees in best-first order, and a metric for evaluating the relative quality of paths through a search tree. We demonstrate this approach on a path-planning problem with hidden information, and suggest adaptations to the MCTS algorithm to increase the diversity of generated plans. Our results show that our method can generate diverse and high-quality plan sets in domains where classical planners are not applicable.}
+}
+}
+
+@inproceedings{paas-demo,
+  title={Planning as a Service},
+  author={Ding, Yi and Cunningham, Cam and Muise, Christian and Lipovetzky, Nir},
+  booktitle={ICAPS sysdemo},
+  year={2023},
+  url={https://nirlipo.github.io/project/paas/},
+  abstract={Planning as a service (PaaS) provides an extendable API to
+deploy planners online in local or cloud servers. The service
+provides a queue manager to control a set of workers, which
+can easily be extended with one of several planners available
+in PLANUTILS. PaaS is designed to overcome the limitations
+of the existing online solver.planning.domains interface and
+widen the adoption of planning technology in education, research, and industry.
+}
+}
+
 @masterthesis{yajing-master,
  abstract = {non-professional personnel, thus it does not apply to non-commercial farmers.
 This paper implements a cost-effective pest detection method that can be used for microfarmers

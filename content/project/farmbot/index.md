@@ -26,13 +26,18 @@ image:
   preview_only: true
 
 ---
+
+## Overview
+
+{{< vimeo 867793437 >}}
+
 Farm.bot is an open-source 3-axis cartesian robot. We are using this platform at the Parkville campus to study the development of new sensors for agriculture, automate the experiments, and develop algorithms that autonomously monitor plants' physiology and actuate to maintain a set of targets. We have developed a unity simulator, and integrated AI planners to automatically synthesise high level controllers.
 
 Key Characteristics:
  - 3-axis cartesian robot
  - Open Source Hardware and Software
 
-![image](./mecheng.jpg)
+<!-- ![image](./mecheng.jpg) -->
 
 Current Research Objectives:
 - Integration of AI Planning algorithms to generate goal oriented Farm.bot behaviours
@@ -43,11 +48,17 @@ Current Research Objectives:
 
 We aim to create automated and replicable lab experiments with the platform.
 
+## Media Releases
+
+{{< tweet 1731574345405714657 >}}
+[![image](./pursuit.png)](https://pursuit.unimelb.edu.au/articles/you-can-t-explore-the-solar-system-on-an-empty-stomach)
+
+
 ## Student Precinct
 The Student Precinct has supported our lab at CIS and FVAS to support interdisciplinary student projects. 
 
 ![image](./studprecinct.jpg)
-![image](./sp1.jpg)
+<!-- ![image](./sp1.jpg) -->
 ![image](./sp2.jpg)
 ![image](./sp3.jpg)
 
@@ -67,7 +78,7 @@ The Unity Simulator controlled by AI Planners was developed as a Master research
 
 Likn to the [github codebase](https://github.com/The-Kharsair-Empire/ROSfarm)
 
-Jiayuan's Master Thesis is [availabe online as a PDF](./MCompSci100Thesis_JiayuanChang.pdf)
+Jiayuan's Master Thesis is [availabe online as a PDF](/publication/jiayuan-master/)
 
 ## Interested in working with the Farm.bots?
 
