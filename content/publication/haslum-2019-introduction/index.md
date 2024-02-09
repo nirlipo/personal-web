@@ -28,6 +28,12 @@ publication_types: ["5"]
 abstract: "Planning is the branch of Artificial Intelligence (AI) that seeks to automate reasoning about plans, most importantly the reasoning that goes into formulating a plan to achieve a given goal in a given situation. AI planning is model-based: a planning system takes as input a description (or model) of the initial situation, the actions available to change it, and the goal condition to output a plan composed of those actions that will accomplish the goal when executed from the initial situation.  \n\n The Planning Domain Definition Language (PDDL) is a formal knowledge representation language designed to express planning models. Developed by the planning research community as a means of facilitating systems comparison, it has become a de-facto standard input language of many planning systems, although it is not the only modelling language for planning. Several variants of PDDL have emerged that capture planning problems of different natures and complexities, with a focus on deterministic problems.  \n\n The purpose of this book is two-fold. First, we present a unified and current account of PDDL, covering the subsets of PDDL that express discrete, numeric, temporal, and hybrid planning. Second, we want to introduce readers to the art of modelling planning problems in this language, through educational examples that demonstrate how PDDL is used to model realistic planning problems. The book is intended for advanced students and researchers in AI who want to dive into the mechanics of AI planning, as well as those who want to be able to use AI planning systems without an in-depth explanation of the algorithms and implementation techniques they use.  \n\n Table of Contents: Praise for *An Introduction to the Planning Domain Definition Language / Preface / Introduction / Discrete and Deterministic Planning / More Expressive Classical Planning / Numeric Planning / Temporal Planning / Planning with Hybrid Systems / Conclusion / Bibliography / Authors' Biographies / Index*  "
 featured: true
 publication: "*Synthesis Lectures on Artificial Intelligence and Machine Learning*"
-url_pdf: "https://www.morganclaypool.com/doi/abs/10.2200/S00900ED2V01Y201902AIM042"
+links:
+  - name: book
+    url: "https://link.springer.com/book/10.1007/978-3-031-01584-7"
+  - #icon_pack: fab
+    #icon: twitter
+    name: Library E-book (requires login)
+    url: "https://ebookcentral.proquest.com/lib/unimelb/detail.action?docID=5746725"
 ---
 {{< tweet  1115287393505042432 >}}
