@@ -52,6 +52,8 @@ url_pdf: https://arxiv.org/pdf/2401.07426.pdf
 links:
   - name: HTML-paper
     url: https://arxiv.org/html/2401.07426v1
+  - name: Poster
+    url: AAAIPoster.pdf
 url_code: github.com/you68681/GPAR
 
 ---
