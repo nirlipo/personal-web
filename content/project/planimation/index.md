@@ -46,7 +46,7 @@ Planimation is an open-source program which visualises solutions to Planning Pro
 ### ICAPS 2019 Best System Demonstration
 Recipient of the [ICAPS 2019 Best system Demo Award](https://icaps19.icaps-conference.org/awards).
 
-{{< tweet 1151380531021434880 >}}
+{{< tweet user=FEITUniMelb id=1151380531021434880 >}}
 
 ### Melbourne School of Engineering - Endeavour 2018
 

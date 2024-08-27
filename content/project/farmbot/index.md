@@ -50,7 +50,7 @@ We aim to create automated and replicable lab experiments with the platform.
 
 ## Media Releases
 
-{{< tweet 1731574345405714657 >}}
+{{< tweet user=10NewsFirstMelb id=1731574345405714657 >}}
 [![image](./pursuit.png)](https://pursuit.unimelb.edu.au/articles/you-can-t-explore-the-solar-system-on-an-empty-stomach)
 [![image](./theguardian.png)](https://www.theguardian.com/food/2024/jan/28/farmbots-flavour-pills-and-zero-gravity-beer-inside-the-mission-to-grow-food-in-space)
 [![image](./farmbotNews.png)](https://farm.bot/blogs/news/farmbot-featured-in-the-guardian-inside-the-mission-to-grow-food-in-space)

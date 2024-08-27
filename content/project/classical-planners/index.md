@@ -25,7 +25,7 @@ image:
 # slides: example
 ---
 One of our AI planners **has been used ove 1M times @ [editor.planning.domains](http://editor.planning.domains)**. It was developed using [LAPKT](http://lapkt.org) and deployed as solver in the cloud. 
-{{< tweet 1263538966046916608 >}}
+{{< tweet user=cjmuise id=1263538966046916608 >}}
 
 Several AI Planners have been awarded in  __International Planning Competitions__ (IPC):
 

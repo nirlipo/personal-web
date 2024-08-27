@@ -19,6 +19,13 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 #   certificate_url = "https://www.datacamp.com"
 [[item]]
+  organization = "The 23rd International Conference on Autonomous Agents and Multi-Agent Systems"
+  organization_url = "https://www.ifaamas.org/"
+  title = "AAMAS 2024 - Pragnesh Jay Modi Best Student Paper Award"
+  url = "https://www.aamas2024-conference.auckland.ac.nz/awards/best-paper-awards/"
+  date_start = "2024-05-01"
+  description = ""
+[[item]]
   organization = "The 31th Joint Conference on Artificial Intelligence"
   organization_url = "https://ijcai.org/"
   title = "IJCAI-ECAI 2022 - Distinguished Program Committee"
