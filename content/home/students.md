@@ -25,6 +25,8 @@ date_format = "Jan 2006"
 
 #### Ph.D.
 
+- `Giacomo Rosa` [2024 - current] **co-supervised** with Prof. Sebastian Sardina and Dr. Jean Honorio, **Topic**: Exploration methods for Planning 
+
 - `Jiajia Song` [2024 - current] **co-supervised** with Prof. Sebastian Sardina and Dr. William Umboh, **Topic**: What Makes AI Planning Hard? From Complexity Analysis to Algorithm Design 
 
 - `David Adams` [2024 - current] **co-supervised** with Dr. Renata Borovica-Gajic, **Topic**: Exploration Methods for Databases
@@ -43,12 +45,13 @@ date_format = "Jan 2006"
 
 - `Guang Hu` [2020 - current], **co-supervised** with Dr.Tim Miller. **Topic**: Epistemic Planning and Explanability
 
-- `Zihang Su` [2020 - current], **co-supervised** with Dr. Artem Polyvyanyy and Prof. Sebastian Sardina. **Topic**: Bridging the gap between Process Mining and Goal-Plan-Intention Recognition 
 
 
 ### Alumni 
 
 #### Ph.D.
+- `Zihang Su` [2020 - 2024], **co-supervised** with Dr. Artem Polyvyanyy and Prof. Sebastian Sardina. **Topic**: Bridging the gap between Process Mining and Goal-Plan-Intention Recognition  **First Employment:** Post-Doc @ Tsinghua University [2024 - current]
+
 - `Chenyuan Zhang` [2020 - 2024], **co-supervised** with A/Prof. Charles Kemp (Psychology). **Thesis**: [Planning and Goal Recognition in Humans and Machines](publication/chenyuan-phdthesis/) **First Employment:** Post-Doc @ Monash University [2024 - current] **Best Student Paper Award** `AAMAS (2024)`
 
 - `Anubhav Singh` [2019 - 2024], **co-supervized** with Dr. Miquel Ramirez and Prof. Peter Stuckey. **Thesis**: [Lazy Constraint Generation and Tractable Approximations for Large-scale Planning Problems](publication/anu-phdthesis/) **First Employment:** Post-Doc @ Universtiy of Toronto [2024 - current]
@@ -59,7 +62,7 @@ date_format = "Jan 2006"
 - ``Toby Davies``, [2013-2017], **co-supervized** with Prof. Adrian Pearce, Prof. Peter Stuckey and Prof. Harald Sondergaard. **Thesis**: [Learning from Conflict in Multi-Agent, Classical, and Temporal Planning](publication/toby-phdthesis/). **First Employment:** Google [2017 - current]. **Best Paper Award** `ICAPS (2015)`, **Best PhD Thesis**, `Melbourne School of Engineering  2018`
 
 #### Masters
-- `Giacomo Rosa` [2023-2024]. **Thesis**: [Regression and Width in Classical Planning](publication/giacomo-master/) and [ECAI24 paper](https://arxiv.org/abs/2408.13719)
+- `Giacomo Rosa` [2023-2024]. **Thesis**: [Count-Based Novelty Exploration](publication/giacomo-master/) and [ECAI24 paper](https://arxiv.org/abs/2408.13719)
 - `Zhiaho Pei` [2021]. **co-supervized** with Dr. Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Thesis**: [Robust decision making for complex systems](publication/zhihao-master/)
 - `Marco Marasco` [2021]. **co-supervized** with Dr. Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Thesis**: [Adaptive Policy making for systems of electricity provision](publication/marco-master/)
 - `Jiayuan Chang` [2021]. **co-supervized** with A/Prof Sigfredo Fuentes, **Thesis**: [FarmBot.io Automated Planning: simulation and integration](publication/jiayuan-master/)
