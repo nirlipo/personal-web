@@ -52,7 +52,7 @@ date_format = "Jan 2006"
 - `Sukai Huang` [2022 - 2025]. **co-supervized** with Prof. Trevor Cohn,  **Thesis**: [Integrating Natural Language in Sequential Decision Problems](publication/sukai-phdthesis/) **First Employment:** Post-Doc @ Monash University [2025- current]
 
 - `Guang Hu` [2021 - 2025], **co-supervised** with Dr.Tim Miller. **Thesis**: ["Seen Is Believing": Modeling and Solving Epistemic Planning Problems using Justified Perspectives](publication/guang-phdthesis/) **First Employment:** TBA
-- `Zihang Su` [2020 - 2024], **co-supervised** with Dr. Artem Polyvyanyy and Prof. Sebastian Sardina. **Topic**: Bridging the gap between Process Mining and Goal-Plan-Intention Recognition  **First Employment:** Post-Doc @ Tsinghua University [2024 - current]
+- `Zihang Su` [2020 - 2024], **co-supervised** with Dr. Artem Polyvyanyy and Prof. Sebastian Sardina. **Thesis**: [Evidence-Based Goal Recognition Using Process Mining Techniques](publication/zihang-phdthesis/) **First Employment:** Post-Doc @ Tsinghua University [2024 - current]
 
 - `Chenyuan Zhang` [2020 - 2024], **co-supervised** with A/Prof. Charles Kemp (Psychology). **Thesis**: [Planning and Goal Recognition in Humans and Machines](publication/chenyuan-phdthesis/) **First Employment:** Post-Doc @ Monash University [2024 - current] **Best Student Paper Award** `AAMAS (2024)`
 
