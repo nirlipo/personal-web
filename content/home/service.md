@@ -31,6 +31,10 @@ date_format = "Jan 2006"
 
 ### Organizing Committee
 
+- [Optimisation and Planning](https://opss25.pathfinding.ai/) ICAPS 2025 Summer School -- Organizer, `2025`
+
+- [AgentsVic Autumn Symposium](https://sites.google.com/view/agentsvic-autumn2024) on Reasoning and Learning for Autonomous Agents -- Organizer, `2024`
+
 - International Conference on Automated Planning and Scheduling -- Publicity co-chair, `ICAPS (2010)`
 
 - First Unsolvability International Planning Competition -- Co-Organizer, `UIPC-1 (2016)`
@@ -42,11 +46,12 @@ date_format = "Jan 2006"
 
 - Journal Presentation track -- Co-Chair `ICAPS (2018)`
 
+
 ### Senior Program Committee 
 
 - Association for the Advancement of Artificial Intelligence, `AAAI (2020,2021,2022,2023)`
 - International Joint Conferences on Artificial Intelligence `IJCAI (2021,2023)`
-
+- Association for Computational Linguistics (ACL) conference Rolling Review, Area Chair, `Jan 2026`
 
 ### Program Committee 
 

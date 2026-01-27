@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Model AI Assignments 2024
+title: 'Model AI Assignments 2024'
 subtitle: ''
 summary: ''
 authors:
@@ -15,11 +15,12 @@ authors:
 - Claire Wong
 - Stephanie Rosenthal
 - Yu Lu
-- ' others'
+- Ming Gao
+- Jingjing Zhang
 tags: []
 categories: []
-date: '2024-01-01'
-lastmod: 2024-08-27T18:36:11+10:00
+date: '2024-03-24'
+lastmod: 2026-01-27T00:00:00+00:00
 featured: false
 draft: false
 
@@ -37,12 +38,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2024-08-27T08:36:11.003958Z'
+publishDate: '2024-03-24T00:00:00Z'
 publication_types:
 - '1'
-abstract: 'The Model AI Assignments session seeks to gather and dis-seminate the best assignment designs of the Artificial In-telligence (AI) Education community. Recognizing that as-signments form the core of student learning experience, we here present abstracts of five AI assignments from the 2024 session that are easily adoptable, playfully engaging, and flexible for a variety of instructor needs. Assignment spec-ifications and supporting resources may be found at http://modelai. gettysburg. edu.'
+abstract: 'The Model AI Assignments session seeks to gather and disseminate the best assignment designs of the Artificial Intelligence (AI) Education community. Recognizing that assignments form the core of student learning experience, we here present abstracts of five AI assignments from the 2024 session that are easily adoptable, playfully engaging, and flexible for a variety of instructor needs. Assignment specifications and supporting resources may be found at http://modelai.gettysburg.edu.'
 publication: '*Proceedings of the AAAI Conference on Artificial Intelligence*'
-links:
-- name: URL
-  url: https://ojs.aaai.org/index.php/AAAI/article/download/30386/32453
+url_pdf: https://ojs.aaai.org/index.php/AAAI/article/download/30386/32453
+url_doi: https://ojs.aaai.org/index.php/AAAI/article/view/30386
 ---

@@ -35,5 +35,5 @@ abstract: 'The rapid advancement of artificial intelligence, exemplified by syst
 This thesis explores the effectiveness of planning algorithms in modeling human behavior. Existing literature often overlooks timing information, and I develop a novel tree-based model that aims to capture both human action selection and human reaction times. The thesis also introduces a timing-sensitive goal recognition framework that incorporates timing information, and uses this framework to model human goal inference. My findings indicate that a Bayesian framework that incorporates a prior based on goal difficulty and a likelihood derived from an online planner accurately predicts human goal inference. This thesis underscores the promise of planning algorithms in mimicking human behavior and their utility in human-robot collaborations. More generally, it suggests that planning algorithms have an important role to play in advancing human-like intelligence.
 '
 publication: 'The Univesity of Melbourne'
-url_pdf: 'publication/chenyuan-phdthesis/anu_phd_thesis.pdf'
+url_pdf: 'publication/chenyuan-phdthesis/chenyuan_phd_thesis.pdf'
 ---

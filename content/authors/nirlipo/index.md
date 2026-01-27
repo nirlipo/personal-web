@@ -59,7 +59,7 @@ social:
   link: https://twitter.com/nirlipo
 - icon: google-scholar
   icon_pack: ai
-  link: holar.google.com.au/citations?user=us3IGxsAAAAJ&hl=en
+  link: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=us3IGxsAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/nirlipo

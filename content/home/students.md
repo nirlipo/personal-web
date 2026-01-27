@@ -39,17 +39,19 @@ date_format = "Jan 2006"
 
 - `Zhiaho Pei` [2022 - current]. **co-supervized** with Dr. Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Robust decision making for complex systems
 
-- `Sukai Huang` [2022 - current]. **co-supervized** with Prof. Trevor Cohn, **Topic**: NLP and sequential decision problems
-
 - `Lingfei Wang` [2021 - current], **co-supervised** with Dr.Maria Rodriguez. **Topic**: Scheduling and Learning for High Performance Computing (HPC)
 
-- `Guang Hu` [2020 - current], **co-supervised** with Dr.Tim Miller. **Topic**: Epistemic Planning and Explanability
+
 
 
 
 ### Alumni 
 
 #### Ph.D.
+
+- `Sukai Huang` [2022 - 2025]. **co-supervized** with Prof. Trevor Cohn,  **Thesis**: [Integrating Natural Language in Sequential Decision Problems](publication/sukai-phdthesis/) **First Employment:** Post-Doc @ Monash University [2025- current]
+
+- `Guang Hu` [2021 - 2025], **co-supervised** with Dr.Tim Miller. **Thesis**: ["Seen Is Believing": Modeling and Solving Epistemic Planning Problems using Justified Perspectives](publication/guang-phdthesis/) **First Employment:** TBA
 - `Zihang Su` [2020 - 2024], **co-supervised** with Dr. Artem Polyvyanyy and Prof. Sebastian Sardina. **Topic**: Bridging the gap between Process Mining and Goal-Plan-Intention Recognition  **First Employment:** Post-Doc @ Tsinghua University [2024 - current]
 
 - `Chenyuan Zhang` [2020 - 2024], **co-supervised** with A/Prof. Charles Kemp (Psychology). **Thesis**: [Planning and Goal Recognition in Humans and Machines](publication/chenyuan-phdthesis/) **First Employment:** Post-Doc @ Monash University [2024 - current] **Best Student Paper Award** `AAMAS (2024)`
@@ -70,7 +72,7 @@ date_format = "Jan 2006"
 
 - `Dmitry Grebenyuk` [2018-2020], **co-supervised** with Dr. Miquel Ramirez, and Dr. Kris Ehinger. **Thesis**: [Agnostic Features for generalized policies computed with Deep Reinforcement Learning (DRL)](publication/dmitry-master/). **First Employment:** Start-up working on Image Processing using DRL
 
-- `Guang Hu` [2018-2020], **co-supervised** with Dr.Tim Miller. **Thesis**: [What you get is what you see: Decomposing Epistemic Planning using Functional STRIPS](publication/guang-master). **PhD Candidate** [2020 - current]
+- `Guang Hu` [2018-2020], **co-supervised** with Dr.Tim Miller. **Thesis**: [What you get is what you see: Decomposing Epistemic Planning using Functional STRIPS](publication/guang-master). **PhD Candidate** [2021 - current]
 
 - `Ciao Lei` [2019-2020]. **Thesis**: [Regression and Width in Classical Planning](publication/chao-master/) and [ICAPS21 paper](publication/lei-2021-width)
 
