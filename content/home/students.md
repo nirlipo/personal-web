@@ -39,7 +39,6 @@ date_format = "Jan 2006"
 
 - `Zhiaho Pei` [2022 - current]. **co-supervized** with Dr. Angela Rojas, Dr. Fjalar De Haan and Dr. Enayat A. Moallemi, **Topic**: Robust decision making for complex systems
 
-- `Lingfei Wang` [2021 - current], **co-supervised** with Dr.Maria Rodriguez. **Topic**: Scheduling and Learning for High Performance Computing (HPC)
 
 
 
@@ -49,7 +48,9 @@ date_format = "Jan 2006"
 
 #### Ph.D.
 
-- `Sukai Huang` [2022 - 2025]. **co-supervized** with Prof. Trevor Cohn,  **Thesis**: [Integrating Natural Language in Sequential Decision Problems](publication/sukai-phdthesis/) **First Employment:** Post-Doc @ Monash University [2025- current]
+- `Sukai Huang` [2022 - 2025]. **co-supervized** with Prof. Trevor Cohn,  **Thesis**: [Integrating Natural Language in Sequential Decision Problems](publication/sukai-phdthesis/) **First Employment:** Post-Doc @ Monash University [2025- current] 
+
+- `Lingfei Wang` [2021 - 2025], **co-supervised** with Dr.Maria Rodriguez. **Thesis**: [Job Scheduling in High Performance Computing Clusters with Deep Reinforcement Learning](publication/lingfei-phdthesis/) **First Employment:** TBA
 
 - `Guang Hu` [2021 - 2025], **co-supervised** with Dr.Tim Miller. **Thesis**: ["Seen Is Believing": Modeling and Solving Epistemic Planning Problems using Justified Perspectives](publication/guang-phdthesis/) **First Employment:** TBA
 - `Zihang Su` [2020 - 2024], **co-supervised** with Dr. Artem Polyvyanyy and Prof. Sebastian Sardina. **Thesis**: [Evidence-Based Goal Recognition Using Process Mining Techniques](publication/zihang-phdthesis/) **First Employment:** Post-Doc @ Tsinghua University [2024 - current]
