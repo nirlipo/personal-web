@@ -52,7 +52,7 @@ date_format = "Jan 2006"
 
 - `Lingfei Wang` [2021 - 2025], **co-supervised** with Dr.Maria Rodriguez. **Thesis**: [Job Scheduling in High Performance Computing Clusters with Deep Reinforcement Learning](publication/lingfei-phdthesis/) **First Employment:** TBA
 
-- `Guang Hu` [2021 - 2025], **co-supervised** with Dr.Tim Miller. **Thesis**: ["Seen Is Believing": Modeling and Solving Epistemic Planning Problems using Justified Perspectives](publication/guang-phdthesis/) **First Employment:** TBA
+- `Guang Hu` [2021 - 2025], **co-supervised** with Dr.Tim Miller. **Thesis**: ["Seen Is Believing": Modeling and Solving Epistemic Planning Problems using Justified Perspectives](publication/guang-phdthesis/) **First Employment:** Education Specialist @ The University of Melbourne [2026 - Current]
 - `Zihang Su` [2020 - 2024], **co-supervised** with Dr. Artem Polyvyanyy and Prof. Sebastian Sardina. **Thesis**: [Evidence-Based Goal Recognition Using Process Mining Techniques](publication/zihang-phdthesis/) **First Employment:** Post-Doc @ Tsinghua University [2024 - current]
 
 - `Chenyuan Zhang` [2020 - 2024], **co-supervised** with A/Prof. Charles Kemp (Psychology). **Thesis**: [Planning and Goal Recognition in Humans and Machines](publication/chenyuan-phdthesis/) **First Employment:** Post-Doc @ Monash University [2024 - current] **Best Student Paper Award** `AAMAS (2024)`
