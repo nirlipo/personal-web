@@ -72,6 +72,8 @@ date_format = "Jan 2006"
 
 - Reviewer Artificial Intelligence, Elsevier `AIJ`
 
+- Reviewer Communications of the ACM, `CACM`
+
 ### Other
 
 - ICAPS Awards Committee 2024
